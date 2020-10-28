@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+/*-----------------------------------------------------------
+Theme Name: LABwel
+Auther: 株式会社スタンドトゥギャザー
+Description: LABwelのサイトに使用されるWordPressテーマです
+Version: 1.1
+
+-------------------------------------------------------------*/
+/*-------------------------------------------------------------
+
+0.css reset --異なるブラウザでの表示差を無くすための部分
+1.document --各種共通部分
+2.header
+3.navigation
+.front-page
+.page
+.single
+.footer
+
+-------------------------------------------------------------*/
+/*-------------------------------------------------------------
+0.css reset
+-------------------------------------------------------------*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ol,
+ul,
+form,
+button,
+table,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5;
+    font-family: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+blockquote::before,
+blockquote::after {
+    content: '';
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+input[type=search],
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=button],
+input[type=tel],
+input[type=submit],
+textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+iframe {
+    border: none;
+}
+
+.clearfix {
+    display: inline-block;
+    clear: both;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+/*-------------------------------------------------------------
+1.document
+-------------------------------------------------------------*/
+:root {
+    --base-color: #ffffff;
+    --main-color: #333333;
+    --link-color: #66b821;
+    --card-font-color: #D8F4C1;
+    --underline-color: #AFFD6B;
+}
+
+body {
+    
+}
+
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.grid-box {
+    display: grid;
+}
+
+.wrapper {
+    margin: 0 auto;
+    grid-template-columns: 1fr 500px 500px 1fr;
+    grid-template-rows: 650px 70px 100vh 100px;
+}
+
+/*-------------------------------------------------------------
+2.header
+-------------------------------------------------------------*/
+
+.header {
+    grid-column-end: span 4;
+}
+
+/*-------------------------------------------------------------
+3.navigation
+-------------------------------------------------------------*/
+
+.nav {
+    grid-column-end: span 4;
+    align-items: center;
+    justify-content: center;
+    column-gap: 90px;
+}
+
+/*-------------------------------------------------------------
+4.front-page
+-------------------------------------------------------------*/
+
+.main {
+    grid-column-end:span 2;
+}
+.sidebar1 {
+    
+}
+
+.sidebar2 {
+    
+}
+
+/*-------------------------------------------------------------
+X.footer
+-------------------------------------------------------------*/
+
+.footer {
+    grid-column-end: span 4;
+}
