@@ -11,9 +11,9 @@ Version: 1.1
 
 0.css reset --異なるブラウザでの表示差を無くすための部分
 1.document --各種共通部分
-2.header
-3.navigation
-.front-page
+2.header --ヘッダー
+3.navigation --ナビゲーション
+.front-page --トップ
 .page
 .single
 .footer
@@ -78,7 +78,7 @@ blockquote::after {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -150,6 +150,9 @@ a:focus {
 
 .flex-box {
     display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    flex: 1 1 auto;
 }
 
 .grid-box {
@@ -157,9 +160,6 @@ a:focus {
 }
 
 .wrapper {
-    margin: 0 auto;
-    grid-template-columns: 1fr 500px 500px 1fr;
-    grid-template-rows: 650px 70px 100vh 100px;
 }
 
 /*-------------------------------------------------------------
@@ -167,7 +167,8 @@ a:focus {
 -------------------------------------------------------------*/
 
 .header {
-    grid-column-end: span 4;
+    width: 100%;
+    font-size: 0;
 }
 
 /*-------------------------------------------------------------
@@ -175,19 +176,58 @@ a:focus {
 -------------------------------------------------------------*/
 
 .nav {
-    grid-column-end: span 4;
+    width: 100%;
+    background-color: var(--main-color);
+}
+.nav-box {
+    margin: 0 auto;
+    height: 70px;
+    max-width: 1000px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     align-items: center;
     justify-content: center;
-    column-gap: 90px;
+    column-gap: 10px;
+}
+
+.nav-box .flex-item {
+    padding: 2px;
+}
+
+.nav-box .flex-item a {
+    color: var(--base-color);
+    padding: 20px 45px 20px 45px;
+}
+.nav-box .flex-item a:hover{
+    color: var(--base-color);
+    padding-bottom: 18px;
+    border-bottom: 3px solid var(--underline-color);
 }
 
 /*-------------------------------------------------------------
 4.front-page
 -------------------------------------------------------------*/
+.l-wrapper {
+    min-height: 80vh;
+    grid-template-columns: minmax(150px, 300px) 1fr minmax(150px, 300px);
+}
+
 
 .main {
-    grid-column-end:span 2;
+    
 }
+.service-guide {
+    padding-top: 60px;
+    padding-left: 20%;
+    padding-bottom: 60px;
+    background-image: url(images/handshake.jpg);
+    background-size: cover;
+    filter: brightness(95%);
+}
+.service-guide span {
+    z-index: 2;
+}
+
 .sidebar1 {
     
 }
@@ -201,5 +241,6 @@ X.footer
 -------------------------------------------------------------*/
 
 .footer {
-    grid-column-end: span 4;
+    width: 100%;
+    min-height: 100px;
 }
