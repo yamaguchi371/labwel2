@@ -13,7 +13,8 @@ Version: 1.1
 1.document --各種共通部分
 2.header --ヘッダー
 3.navigation --ナビゲーション
-.front-page --トップ
+4.front-page --トップ
+5.index --投稿ページ
 .page
 .single
 .footer
@@ -130,7 +131,7 @@ iframe {
 }
 
 body {
-    
+    font-family: inherit;
 }
 
 
@@ -175,7 +176,7 @@ a:focus {
 
 .header {
     width: 100%;
-    font-size: 0;
+    font-size: 0; /*すきま防止のため*/
 }
 
 /*-------------------------------------------------------------
@@ -218,7 +219,7 @@ a:focus {
     background: var(--underline-color);
     transform: scale(0, 1);
     transform-origin: top top;
-    transition: transform 0.8s ease-in;
+    transition: transform 0.4s ease-in;
 }
 
 .nav-box .flex-item a:hover::after{
@@ -230,13 +231,18 @@ a:focus {
 -------------------------------------------------------------*/
 .l-wrapper {
     min-height: 80vh;
-    grid-template-columns: minmax(150px, 300px) 1fr minmax(150px, 300px);
+    grid-template-columns: minmax(100px, 300px) 1fr minmax(100px, 300px);
 }
 
 
 .main {
-    
+    word-break: keep-all;
 }
+
+.f-section {
+    margin-top: 80px;
+}
+
 .service-guide {
     padding-top: 40px;
     padding-left: 20%;
@@ -255,6 +261,33 @@ a:focus {
     filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.4));
     position: absolute;
     right: 10%;
+}
+
+.office-category {
+    padding-bottom: 5px;
+    border-bottom: 3px solid var(--main-color);
+    position: relative;
+}
+
+.ipppo-logo img{
+    width: 70px;
+    height: 40px;
+}
+.office-desc {
+    min-height: 150px;
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+    line-height: 1.75;
+}
+
+.office-desc span {
+    padding-bottom: 0;
+    text-align: right;
+    font-size: 20px;
+    border-bottom: 1px solid var(--link-color);
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
 }
 
 .sidebar1 {
