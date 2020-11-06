@@ -123,7 +123,7 @@ iframe {
 -------------------------------------------------------------*/
 :root {
     --base-color: #ffffff;
-    --main-color: #333333;
+    --main-color: #383838;
     --link-color: #66b821;
     --card-font-color: #D8F4C1;
     --underline-color: #AFFD6B;
@@ -135,11 +135,13 @@ body {
 
 
 a {
+    color: var(--link-color);
     outline: none;
     text-decoration: none;
 }
 
 a:hover {
+    color: var(--link-color);
     outline: none;
     text-decoration: none;
 }
@@ -193,6 +195,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     column-gap: 10px;
+    row-gap: 10px;
 }
 
 .nav-box .flex-item {
@@ -214,8 +217,8 @@ a:focus {
     height: 2px;
     background: var(--underline-color);
     transform: scale(0, 1);
-    transform-origin: left top;
-    transition: transform 0.7s;
+    transform-origin: top top;
+    transition: transform 0.6s ease-in;
 }
 
 .nav-box .flex-item a:hover::after{
@@ -235,15 +238,23 @@ a:focus {
     
 }
 .service-guide {
-    padding-top: 60px;
+    padding-top: 40px;
     padding-left: 20%;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     background-image: url(images/handshake.jpg);
     background-size: cover;
-    filter: brightness(95%);
+    position: relative;
 }
-.service-guide span {
-    z-index: 2;
+
+.service-guide a {
+    color: var(--base-color);
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));
+}
+
+.service-guide .click {
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.4));
+    position: absolute;
+    right: 10%;
 }
 
 .sidebar1 {
@@ -259,6 +270,11 @@ X.footer
 -------------------------------------------------------------*/
 
 .footer {
+    color: var(--card-font-color);
     width: 100%;
+    padding-top: 1rem;
     min-height: 100px;
+    background-color: var(--main-color);
+    justify-content: center;
+    align-items: center;
 }
