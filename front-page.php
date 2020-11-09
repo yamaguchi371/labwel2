@@ -37,6 +37,49 @@
                     </p>
                 </div>
             </div>
+        </section><!-- f-section end -->
+        <section class="f-section">
+            <h2 class="social-work-title">
+               地域社会への取り組み
+            </h2>
+            <div class="grid-box social-work">
+                <div class="card box-item1">
+                    <header class="card-header">海岸清掃</header>
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/corst-clean.jpg')); ?>" alt="海岸清掃">
+                </div>
+                <div class="card box-item2">
+                    <header class="card-header">個別収集</header>
+                    <img src="" alt="">
+                </div>
+                <div class="card box-item3">
+                    <header class="card-header">高齢者生活支援</header>
+                    <img src="" alt="">
+                </div>
+                <div class="card box-item4">
+                    <header class="card-header">寺院清掃</header>
+                    <img src="" alt="">
+                </div>
+                <div class="card box-item5">
+                    <header class="card-header">洗濯・クリーニング</header>
+                    <img src="" alt="">
+                </div>
+                <div class="card box-item6">
+                    <header class="card-header">おぼろ昆布・加工販売</header>
+                    <img src="" alt="">
+                </div>
+                <div class="card box-item7">
+                    <header class="card-header">お弁当・調理販売</header>
+                    <img src="" alt="">
+                </div>
+                <div class="card box-item8">
+                    <header class="card-header">ケータリング</header>
+                    <img src="" alt="">
+                </div>
+                <div class="card box-item9">
+                    <header class="card-header">特別清掃</header>
+                    <img src="" alt="">
+                </div>
+            </div>
         </section>
     </main><!-- main end -->
     <aside class="sidebar sidebar2"></aside>
