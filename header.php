@@ -19,7 +19,11 @@
 
     <div class="wrapper"><!-- wrapper start -->
         <header id="header" class="header">
-            <img src="<?php echo esc_url(get_theme_file_uri('images/main-image-l.jpg')); ?>" alt="">
+           <h1 class="logo">
+               <span><img src="<?php echo esc_url(get_theme_file_uri('images/logo.png')); ?>" alt="LABwel"></span>
+           </h1>
+            <img src="<?php echo esc_url(get_theme_file_uri('images/main-image-n.jpg')); ?>" alt="メインイメージ">
+            <h1 class="">地域社会への貢献</h1>
         </header>
         <nav id="nav" class="nav">
             <div class="nav-box flex-box">

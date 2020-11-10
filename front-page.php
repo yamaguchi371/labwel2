@@ -2,7 +2,7 @@
 <div class="l-wrapper grid-box">
     <!-- l-wrapper start -->
     <aside class="sidebar sidebar1"></aside>
-    <main class="main">
+    <main id="main" class="main">
         <!-- main start -->
         <h2 class="service-guide">
             <span><a href="#" target="_blank" rel="noopener noreferrer">就労継続支援サービス利用希望の方</a></span>
@@ -45,39 +45,39 @@
             <div class="grid-box social-work">
                 <div class="card box-item1">
                     <header class="card-header">海岸清掃</header>
-                    <img src="<?php echo esc_url(get_theme_file_uri('images/corst-clean.jpg')); ?>" alt="海岸清掃">
+                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/corst-clean.jpg')); ?>" alt="海岸清掃"></a>
                 </div>
                 <div class="card box-item2">
                     <header class="card-header">個別収集</header>
-                    <img src="" alt="">
+                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/trash.jpg')); ?>" alt="個別収集"></a>
                 </div>
                 <div class="card box-item3">
                     <header class="card-header">高齢者生活支援</header>
-                    <img src="" alt="">
+                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/care.jpg')); ?>" alt="高齢者生活支援"></a>
                 </div>
                 <div class="card box-item4">
                     <header class="card-header">寺院清掃</header>
-                    <img src="" alt="">
+                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/clean.jpg')); ?>" alt="寺院清掃"></a>
                 </div>
                 <div class="card box-item5">
                     <header class="card-header">洗濯・クリーニング</header>
-                    <img src="" alt="">
+                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/wash.jpg')); ?>" alt="洗濯・クリーニング"></a>
                 </div>
                 <div class="card box-item6">
                     <header class="card-header">おぼろ昆布・加工販売</header>
-                    <img src="" alt="">
+                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/kelp.jpg')); ?>" alt="おぼろ昆布・加工販売"></a>
                 </div>
                 <div class="card box-item7">
                     <header class="card-header">お弁当・調理販売</header>
-                    <img src="" alt="">
+                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/cook.jpg')); ?>" alt="お弁当・調理販売"></a>
                 </div>
                 <div class="card box-item8">
                     <header class="card-header">ケータリング</header>
-                    <img src="" alt="">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/catering.jpg')); ?>" alt="ケータリング">
                 </div>
                 <div class="card box-item9">
                     <header class="card-header">特別清掃</header>
-                    <img src="" alt="">
+                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/clean2.jpg')); ?>" alt="特別清掃"></a>
                 </div>
             </div>
         </section>

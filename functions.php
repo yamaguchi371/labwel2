@@ -164,3 +164,10 @@ function new_custom_post_type() {
 	register_taxonomy( 'news_cat', 'news', $args );
 }
 add_action( 'init', 'new_custom_post_type');
+
+// ダッシュボードの使わない機能を非表示
+function hidden_menus(){
+    remove_menu_page( 'edit-comments.php' ); //「コメント」メニューを非表示
+}
+add_action( 'admin_menu', 'hidden_menus' );
+

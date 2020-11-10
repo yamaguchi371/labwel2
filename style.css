@@ -31,6 +31,7 @@ Version: 1.1
 }
 
 html {
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -176,7 +177,26 @@ a:focus {
 
 .header {
     width: 100%;
-    font-size: 0; /*すきま防止のため*/
+/*    font-size: 0;*/
+    position: relative;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 140px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.header h1:nth-child(3) {
+    color: var(--card-font-color);
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));
+    position: absolute;
+    top: 15%;
+    right: 15%;
 }
 
 .card-header {
@@ -298,7 +318,7 @@ a:focus {
 }
 
 .office-desc span a {
-    border-bottom: 1px solid var(--link-color);
+    text-decoration: underline;
 }
 
 .social-work-title {
@@ -336,6 +356,25 @@ a:focus {
     grid-column-gap: 50px;
 }
 
+.card {
+    position: relative;
+}
+
+.card::after {
+    font-weight: bold;
+    color: #fff;
+    content: "click!";
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.6));
+    visibility: hidden;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    
+}
+.card:hover::after {
+    visibility: visible;
+}
+
 .sidebar1 {
     
 }
@@ -351,6 +390,7 @@ X.footer
 .footer {
     color: var(--card-font-color);
     width: 100%;
+    margin-top: 170px;
     padding-top: 1rem;
     min-height: 100px;
     background-color: var(--main-color);
