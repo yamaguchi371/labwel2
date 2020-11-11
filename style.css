@@ -132,7 +132,15 @@ iframe {
 }
 
 body {
-    font-family: inherit;
+    font-size: 18px;
+    font-family: 'Noto Sans JP',
+        "Helvetica Neue",
+        Arial,
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        Meiryo,
+        sans-serif;
+    line-height: 1.5;
 }
 
 
@@ -183,7 +191,9 @@ a:focus {
 .logo {
     padding-top: 10px;
     padding-bottom: 10px;
-    text-indent: 140px;
+/*    text-indent: 140px;*/
+    position: relative;
+    left: 15%;
 }
 
 .logo img {
@@ -191,18 +201,20 @@ a:focus {
 }
 
 .header h1:nth-child(3) {
+    font-size: 39px;
     color: var(--base-color);
-    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));
+/*    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));*/
     position: absolute;
-    top: 15%;
-    right: 15%;
+    top: 20%;
+    right: 20%;
 }
 
 
 /* カード部分のヘッダー */
 .card-header {
+    height: 50px;
     background: var(--main-color);
-    color: var(--base-color);
+    color: var(--card-font-color);
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -218,7 +230,7 @@ a:focus {
 }
 .nav-box {
     margin: 0 auto;
-    height: 70px;
+/*    height: 70px;*/
     max-width: 1000px;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -229,12 +241,13 @@ a:focus {
 }
 
 .nav-box .flex-item {
-    padding: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .nav-box .flex-item a {
     color: var(--base-color);
-    padding: 20px 45px 20px 45px;
+    padding: 18px 45px 18px 45px;
     position: relative;
 }
 /* ナビのアンダーライン部分 */
@@ -275,23 +288,27 @@ a:focus {
 /* 事業所紹介セクション */
 
 .service-guide {
+    vertical-align: middle;
+    height: 172px;
     font-weight: bold;
-    padding-top: 40px;
+    padding-top: 70px;
     padding-left: 20%;
     padding-bottom: 40px;
-    background-image: url(images/handshake.jpg);
+    background-image: url(images/handshake-d.jpg);
     background-size: cover;
     position: relative;
 }
 
 .service-guide a {
+    font-size: 33px;
     color: var(--base-color);
-    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));
 }
 
 .service-guide .click {
-    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.4));
     position: absolute;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: normal;
     right: 10%;
 }
 
@@ -309,8 +326,8 @@ a:focus {
 
 .office-info .flex-item {
     width: 50%;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .ipppo-logo img{
@@ -342,38 +359,43 @@ a:focus {
     text-align: center;
     position: relative;
 }
-.social-work-title::before {
-    content: "";
-    display: block;
-    width: 30%;
-    height: 2px;
-    margin-right: 5px;
-    background: var(--main-color);
-    position: absolute;
-    top: 46%;
-    left: 0;
-}
+.social-work-title::before,
 .social-work-title::after {
     content: "";
     display: block;
-    width: 30%;
-    height: 2px;
-    margin-left: 5px;
+    width: 230px;
+    height: 3px;
     background: var(--main-color);
     position: absolute;
-    bottom: 50%;
-    right: 0;
 }
 
+.social-work-title::before {
+    margin-right: 5px;
+    top: 46%;
+    left: 50px;
+}
+.social-work-title::after {
+    margin-left: 5px;
+    position: absolute;
+    bottom: 50%;
+    right: 50px;
+}
+
+
 .social-work {
+    width: 910px;
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 70px;
     grid-column-gap: 50px;
 }
 
 .card {
+    width: 270px;
     position: relative;
+    justify-self: center;
 }
 
 .card::after {

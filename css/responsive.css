@@ -5,15 +5,13 @@
     .service-guide a {
         font-size: 26px;
     }
-    .service-guide span {
-        right: 10px;
-    }
 }
 
 @media screen and (max-width: 990px) {
     .l-wrapper {
         grid-template-columns: 1fr;
     }
+    
     .social-work {
         padding-left: 15px;
         padding-right: 15px;
@@ -21,7 +19,25 @@
 }
 
 @media screen and (max-width: 768px) {
+    .nav {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     
+    .service-guide a {
+        left: 30px;
+    }
+    
+    .service-guide .click {
+        right: 20px;
+    }
 }
 
-@media screen and (max-width: 580px) {}
+@media screen and (max-width: 580px) {
+    .office-info .flex-item {
+        width: 80%;
+    }
+    .office-info > .flex-item + .flex-item {
+        margin-top: 50px;
+    }
+}

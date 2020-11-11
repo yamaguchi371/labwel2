@@ -6,7 +6,7 @@
         <!-- main start -->
         <h2 class="service-guide">
             <span><a href="#" target="_blank" rel="noopener noreferrer">就労継続支援サービス利用希望の方</a></span>
-            <span class="click"><small>コチラを<br>クリック!!</small></span>
+            <span class="click">コチラを<br>クリック!!</span>
         </h2>
         <section class="f-section">
             <div class="flex-box office-info">
