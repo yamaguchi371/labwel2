@@ -8,9 +8,9 @@
             <span><a href="#" target="_blank" rel="noopener noreferrer">就労継続支援サービス利用希望の方</a></span>
             <span class="click"><small>コチラを<br>クリック!!</small></span>
         </h2>
-        <section class="f-section container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 px-3">
+        <section class="f-section">
+            <div class="flex-box office-info">
+                <div class="flex-item">
                     <h4 class="office-category">就労継続支援A型事業所
                         <span class="ipppo-logo">
                             <img src="<?php echo esc_url(get_theme_file_uri('images/ipppo.jpg')); ?>" alt="">
@@ -24,7 +24,7 @@
                         <span><a href="#">詳細</a></span>
                     </p>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 px-3">
+                <div class="flex-item">
                     <h4 class="office-category">
                         就労継続支援B型事業所
                         <span class="ipppo-logo">

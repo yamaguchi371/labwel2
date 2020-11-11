@@ -177,7 +177,6 @@ a:focus {
 
 .header {
     width: 100%;
-/*    font-size: 0;*/
     position: relative;
 }
 
@@ -192,16 +191,18 @@ a:focus {
 }
 
 .header h1:nth-child(3) {
-    color: var(--card-font-color);
+    color: var(--base-color);
     filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));
     position: absolute;
     top: 15%;
     right: 15%;
 }
 
+
+/* カード部分のヘッダー */
 .card-header {
     background: var(--main-color);
-    color: var(--card-font-color);
+    color: var(--base-color);
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -259,7 +260,7 @@ a:focus {
 -------------------------------------------------------------*/
 .l-wrapper {
     min-height: 80vh;
-    grid-template-columns: minmax(100px, 300px) 1fr minmax(100px, 300px);
+    grid-template-columns: 1fr 1000px 1fr;
 }
 
 
@@ -270,6 +271,8 @@ a:focus {
 .f-section {
     margin-top: 80px;
 }
+
+/* 事業所紹介セクション */
 
 .service-guide {
     font-weight: bold;
@@ -293,9 +296,21 @@ a:focus {
 }
 
 .office-category {
+    font-size: 20px;
     padding-bottom: 5px;
     border-bottom: 3px solid var(--main-color);
     position: relative;
+}
+
+.office-info {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.office-info .flex-item {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .ipppo-logo img{
@@ -307,11 +322,12 @@ a:focus {
     margin-top: 1.5rem;
     padding-left: 1rem;
     line-height: 1.75;
+    position: relative;
 }
 
 .office-desc span {
     text-align: right;
-    font-size: 20px;
+    font-size: 18px;
     position: absolute;
     right: 20px;
     bottom: 5px;
@@ -329,7 +345,7 @@ a:focus {
 .social-work-title::before {
     content: "";
     display: block;
-    width: 25%;
+    width: 30%;
     height: 2px;
     margin-right: 5px;
     background: var(--main-color);
@@ -340,7 +356,7 @@ a:focus {
 .social-work-title::after {
     content: "";
     display: block;
-    width: 25%;
+    width: 30%;
     height: 2px;
     margin-left: 5px;
     background: var(--main-color);
@@ -388,7 +404,8 @@ X.footer
 -------------------------------------------------------------*/
 
 .footer {
-    color: var(--card-font-color);
+    font-size: 14px;
+    color: var(--base-color);
     width: 100%;
     margin-top: 170px;
     padding-top: 1rem;
