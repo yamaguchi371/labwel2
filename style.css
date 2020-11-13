@@ -30,6 +30,11 @@ Version: 1.1
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "ぼくたちのゴシックレギュラー";
+    src:url("font/Boku2-Regular-min.woff") format("woff");
+}
+
 html {
     width: 100%;
     overflow-x: hidden;
@@ -133,7 +138,9 @@ iframe {
 
 body {
     font-size: 18px;
-    font-family: 'Noto Sans JP',
+    font-family: 
+        'ぼくたちのゴシックレギュラー',
+        'Noto Sans JP',
         "Helvetica Neue",
         Arial,
         "Hiragino Kaku Gothic ProN",
@@ -189,19 +196,21 @@ a:focus {
 }
 
 .logo {
+    height: 75px;
     padding-top: 10px;
     padding-bottom: 10px;
-/*    text-indent: 140px;*/
     position: relative;
-    left: 15%;
 }
 
 .logo img {
-    width: 200px;
+    max-width: 200px;
+    position: absolute;
+    left: 132px;
 }
 
 .header h1:nth-child(3) {
     font-size: 39px;
+    font-family: "ぼくたちのゴシックレギュラー";
     color: var(--base-color);
 /*    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));*/
     position: absolute;
@@ -288,6 +297,7 @@ a:focus {
 /* 事業所紹介セクション */
 
 .service-guide {
+    font-size: 33px;
     vertical-align: middle;
     height: 172px;
     font-weight: bold;
@@ -300,7 +310,6 @@ a:focus {
 }
 
 .service-guide a {
-    font-size: 33px;
     color: var(--base-color);
 }
 
@@ -383,7 +392,7 @@ a:focus {
 
 
 .social-work {
-    width: 910px;
+    max-width: 910px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -393,7 +402,7 @@ a:focus {
 }
 
 .card {
-    width: 270px;
+    max-width: 270px;
     position: relative;
     justify-self: center;
 }
@@ -427,7 +436,7 @@ X.footer
 
 .footer {
     font-size: 14px;
-    color: var(--base-color);
+    color: var(--card-font-color);
     width: 100%;
     margin-top: 170px;
     padding-top: 1rem;

@@ -11,26 +11,26 @@
         <section class="f-section">
             <div class="flex-box office-info">
                 <div class="flex-item">
-                    <h4 class="office-category">就労継続支援A型事業所
+                    <h3 class="office-category">就労継続支援A型事業所
                         <span class="ipppo-logo">
                             <img src="<?php echo esc_url(get_theme_file_uri('images/ipppo.jpg')); ?>" alt="">
                         </span>
                         <span class="ipppo-logo">
                             <img src="<?php echo esc_url(get_theme_file_uri('images/ipppo+.jpg')); ?>" alt="">
                         </span>
-                    </h4>
+                    </h3>
                     <p class="office-desc">
                         やりがいの見つかる『A型』<br>バリエーション豊富なお仕事内容だから<br>自分のやりがいにつながる得意なお仕事が<br>きっと見つかります。
                         <span><a href="#">詳細</a></span>
                     </p>
                 </div>
                 <div class="flex-item">
-                    <h4 class="office-category">
+                    <h3 class="office-category">
                         就労継続支援B型事業所
                         <span class="ipppo-logo">
                             <img src="<?php echo esc_url(get_theme_file_uri('images/ipppo+.jpg')); ?>" alt="">
                         </span>
-                    </h4>
+                    </h3>
                     <p class="office-desc">
                         自分の居場所が見つかる『B型』<br>みんなとお仕事するのが楽しくなる。<br>そんな働きやすい環境と楽しい<br>人間関係づくりにこだわりました。
                         <span><a href="#">詳細</a></span>

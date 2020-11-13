@@ -2,19 +2,46 @@
     .l-wrapper {
         grid-template-columns: 1fr 800px 1fr;
     }
-    .service-guide a {
-        font-size: 26px;
+    
+    .logo img {
+        left: 15%;
+    }
+    
+    .social-work-title::before,
+    .social-work-titile::after{
+        width: 30%;
     }
 }
 
 @media screen and (max-width: 990px) {
+    body {
+        font-size: 14px;
+    }
+    
     .l-wrapper {
         grid-template-columns: 1fr;
     }
     
+    .nav-box .flex-item a {
+        padding: 18px 30px 18px 30px;
+    }
+    
+    .service-guide {
+        padding-left: 10%;
+    }
+    
+    .social-work-title::before,
+    .social-work-title::after {
+        width: 20%;
+    }
+    
     .social-work {
-        padding-left: 15px;
-        padding-right: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        justify-content: space-between;
+        grid-column-gap: 5%;
+        grid-row-gap: 5%;
+        
     }
 }
 
