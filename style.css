@@ -220,6 +220,7 @@ a:focus {
 
 /* カード部分のヘッダー */
 .card-header {
+    padding: .65rem 1.25rem;
     height: 50px;
     background: var(--main-color);
     color: var(--card-font-color);
@@ -244,7 +245,7 @@ a:focus {
     padding-bottom: 2px;
     align-items: center;
     justify-content: center;
-    column-gap: 10px;
+    column-gap: 100px;
     row-gap: 10px;
 }
 
@@ -255,11 +256,17 @@ a:focus {
 
 .nav-box .flex-item a {
     color: var(--base-color);
-    padding: 18px 45px 18px 45px;
+/*    padding: 18px 45px 18px 45px;*/
+    padding: 18px 0;
     position: relative;
 }
+.nav-box .flex-item a:hover {
+    color: var(--card-font-color);
+}
+
 /* ナビのアンダーライン部分 */
 .nav-box .flex-item a::after {
+    display: inline-block;
     content: '';
     position: absolute;
     bottom: 2px;
@@ -269,7 +276,7 @@ a:focus {
     background: var(--underline-color);
     transform: scale(0, 1);
     transform-origin: top top;
-    transition: transform 0.4s ease-in;
+    transition: transform 0.3s ease-in;
 }
 
 .nav-box .flex-item a:hover::after{
@@ -443,4 +450,8 @@ X.footer
     background-color: var(--main-color);
     justify-content: center;
     align-items: center;
+}
+
+.footer span {
+    padding: 0.25em;
 }

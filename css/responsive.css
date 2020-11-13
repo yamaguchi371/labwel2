@@ -1,4 +1,9 @@
 @media screen and (max-width: 1024px) {
+    * {
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    
     .l-wrapper {
         grid-template-columns: 1fr 800px 1fr;
     }
@@ -6,10 +11,19 @@
     .logo {
         left: 15%;
     }
+    .service-guide {
+        padding-left: 10%;
+    }
     
     .social-work-title::before,
-    .social-work-titile::after{
-        width: 30%;
+    .social-work-title::after{
+        width: 25%;
+    }
+    .social-work-title::before {
+        left: 0;
+    }
+    .social-work-title::after {
+        right: 0;
     }
 }
 
