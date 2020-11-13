@@ -3,7 +3,7 @@
         grid-template-columns: 1fr 800px 1fr;
     }
     
-    .logo img {
+    .logo {
         left: 15%;
     }
     
@@ -16,6 +16,10 @@
 @media screen and (max-width: 990px) {
     body {
         font-size: 14px;
+    }
+    
+    .logo {
+        left: 10%;
     }
     
     .l-wrapper {

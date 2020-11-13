@@ -196,16 +196,15 @@ a:focus {
 }
 
 .logo {
-    height: 75px;
+    display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
+    left: 132px;
 }
 
 .logo img {
     max-width: 200px;
-    position: absolute;
-    left: 132px;
 }
 
 .header h1:nth-child(3) {
