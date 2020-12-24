@@ -34,7 +34,11 @@
                 <a href="#">会社情報</a>
             </div>
             <div class="flex-item flex-item3">
-                <a href="#">各施設情報</a>
+                <a href="#">各施設案内</a>
+                <div class="nav-box flex-box">
+                    <div class="flex-item flex-item6"><a href="#">就労継続支援について</a></div>
+                    <div class="flex-item flex-item7"><a href="#">地域社会への取り組み</a></div>
+                </div>
             </div>
             <div class="flex-item flex-item4">
                 <a href="#">Facebook</a>
