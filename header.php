@@ -36,7 +36,7 @@
             <div class="flex-item flex-item3">
                 <a href="#">各施設案内</a>
                 <div class="nav-box flex-box">
-                    <div class="flex-item flex-item6"><a href="#">就労継続支援について</a></div>
+                    <div class="flex-item flex-item6"><a href="<?php echo esc_url(home_url('/service')) ?>">就労継続支援について</a></div>
                     <div class="flex-item flex-item7"><a href="#">地域社会への取り組み</a></div>
                 </div>
             </div>

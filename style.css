@@ -186,6 +186,10 @@ a:focus {
 .wrapper {
 }
 
+.mb70 {
+    margin-bottom: 70px;
+}
+
 /*-------------------------------------------------------------
 2.header
 -------------------------------------------------------------*/
@@ -279,7 +283,7 @@ a:focus {
     display: flex;
 }
 .nav-box > .flex-item:hover > .nav-box {
-        z-index: 2;
+    z-index: 2;
     width: 200px;
     margin: 20% auto 0;
 }
@@ -380,7 +384,7 @@ a:focus {
     padding-right: 5%;
 }
 
-.ipppo-logo img{
+.ipppo-logo > img{
     width: 70px;
     height: 40px;
 }
@@ -392,7 +396,7 @@ a:focus {
     position: relative;
 }
 
-.office-desc span {
+.office-desc > span {
     text-align: right;
     font-size: 18px;
     position: absolute;
@@ -400,7 +404,7 @@ a:focus {
     bottom: 5px;
 }
 
-.office-desc span a {
+.office-desc > span > a {
     text-decoration: underline;
 }
 
@@ -484,22 +488,22 @@ a:focus {
     font-weight: 700;
     width: 80%;
     margin-top: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
     color: #fff;
-    background: #383838;
+    background: var(--main-color);
     border-left: 10px solid #affd6b;
     padding-left: 10px;
     padding-bottom: 5px;
 }
 
-.page h2 {
+.page > h2 {
     font-size: 2.5em;
     font-weight: 500;
     margin-bottom: 40px;
     text-indent: 10px;
     position: relative;
 }
-.page h2::after {
+.page > h2::after {
     display: block;
     content: '';
     width: 80%;
@@ -510,7 +514,7 @@ a:focus {
     z-index: -1
 }
 
-.page h3 {
+.page > h3 {
     margin-bottom: 70px;
 }
 
@@ -529,7 +533,7 @@ a:focus {
     content: '';
     width: 10px;
     height: 10px;
-    background: #383838;
+    background: var(--main-color);
     border-radius: 100%;
     position: absolute;
     top: 40%;
@@ -538,6 +542,45 @@ a:focus {
 .page > figure {
     margin-bottom: 150px;
 }
+
+.page > ul > li a {
+    color: var(--main-color);
+    transition: all 0.3s ease-in;
+    position: relative;
+}
+
+.page > ul > li a::after {
+    display: inline-block;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: var(--link-color);
+    position: absolute;
+    top: 1.5em;
+    left: 0;
+    transition: transform 0.4s linear;
+    transform-origin: 100%;
+    transform: scale(0, 1);
+}
+
+.page > ul > li a:hover {
+    color: var(--link-color);
+}
+
+.page > ul > li a:hover::after {
+    transform: scale(1, 1);
+    transform-origin: 0%;
+}
+
+h3.description {
+    border-left: 10px solid var(--underline-color);
+    padding-left: 10px;
+    margin-bottom: 70px;
+}
+.page > .section01 {
+    margin-bottom: 11em;
+}
+
 
 
 
