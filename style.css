@@ -581,6 +581,11 @@ h3.description {
     margin-bottom: 11em;
 }
 
+.section01 > p {
+    display: block;
+    width: 100%;
+    word-break: normal;
+}
 
 
 
