@@ -5,7 +5,7 @@
     <main id="main" class="main">
         <!-- main start -->
         <h2 class="service-guide">
-            <span><a href="#" target="_blank" rel="noopener noreferrer">就労継続支援サービス利用希望の方</a></span>
+            <span><a href="<?php echo esc_url(home_url('/service')) ?>" target="_blank" rel="noopener noreferrer">就労継続支援サービス利用希望の方</a></span>
             <span class="click">コチラを<br>クリック!!</span>
         </h2>
         <section class="f-section">
@@ -21,7 +21,7 @@
                     </h3>
                     <p class="office-desc">
                         やりがいの見つかる『A型』<br>バリエーション豊富なお仕事内容だから<br>自分のやりがいにつながる得意なお仕事が<br>きっと見つかります。
-                        <span><a href="#">詳細</a></span>
+                        <span><a href="<?php echo esc_url(home_url('/service#typea')) ?>">詳細</a></span>
                     </p>
                 </div>
                 <div class="flex-item">
@@ -33,7 +33,7 @@
                     </h3>
                     <p class="office-desc">
                         自分の居場所が見つかる『B型』<br>みんなとお仕事するのが楽しくなる。<br>そんな働きやすい環境と楽しい<br>人間関係づくりにこだわりました。
-                        <span><a href="#">詳細</a></span>
+                        <span><a href="<?php echo esc_url(home_url('/service#typeb')); ?>">詳細</a></span>
                     </p>
                 </div>
             </div>
@@ -45,15 +45,15 @@
             <div class="grid-box social-work">
                 <div class="card box-item1">
                     <header class="card-header">海岸清掃</header>
-                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/corst-clean.jpg')); ?>" alt="海岸清掃"></a>
+                    <a href="<?php echo esc_url(home_url('/local#coast__clean')) ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/corst-clean.jpg')); ?>" alt="海岸清掃"></a>
                 </div>
                 <div class="card box-item2">
                     <header class="card-header">個別収集</header>
-                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/trash.jpg')); ?>" alt="個別収集"></a>
+                    <a href="<?php echo esc_url(home_url('/local#garbage')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/trash.jpg')); ?>" alt="個別収集"></a>
                 </div>
                 <div class="card box-item3">
                     <header class="card-header">高齢者生活支援</header>
-                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/care.jpg')); ?>" alt="高齢者生活支援"></a>
+                    <a href="<?php echo esc_url(home_url('/local#old__help')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/care.jpg')); ?>" alt="高齢者生活支援"></a>
                 </div>
                 <div class="card box-item4">
                     <header class="card-header">寺院清掃</header>
