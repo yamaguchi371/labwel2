@@ -57,19 +57,19 @@
                 </div>
                 <div class="card box-item4">
                     <header class="card-header">寺院清掃</header>
-                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/clean.jpg')); ?>" alt="寺院清掃"></a>
+                    <a href="<?php echo esc_url(home_url('/local#temple__clean')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/clean.jpg')); ?>" alt="寺院清掃"></a>
                 </div>
                 <div class="card box-item5">
                     <header class="card-header">洗濯・クリーニング</header>
-                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/wash.jpg')); ?>" alt="洗濯・クリーニング"></a>
+                    <a href="<?php echo esc_url(home_url('/local#cleaning')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/wash.jpg')); ?>" alt="洗濯・クリーニング"></a>
                 </div>
                 <div class="card box-item6">
                     <header class="card-header">おぼろ昆布・加工販売</header>
-                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/kelp.jpg')); ?>" alt="おぼろ昆布・加工販売"></a>
+                    <a href="<?php echo esc_url(home_url('/local#kelp__process')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/kelp.jpg')); ?>" alt="おぼろ昆布・加工販売"></a>
                 </div>
                 <div class="card box-item7">
                     <header class="card-header">お弁当・調理販売</header>
-                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/cook.jpg')); ?>" alt="お弁当・調理販売"></a>
+                    <a href="<?php echo esc_url(home_url('/local#bento')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/cook.jpg')); ?>" alt="お弁当・調理販売"></a>
                 </div>
                 <div class="card box-item8">
                     <header class="card-header">ケータリング</header>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="card box-item9">
                     <header class="card-header">特別清掃</header>
-                    <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/clean2.jpg')); ?>" alt="特別清掃"></a>
+                    <a href="<?php echo esc_url(home_url('/local#s__clean')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/clean2.jpg')); ?>" alt="特別清掃"></a>
                 </div>
             </div>
         </section>

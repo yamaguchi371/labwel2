@@ -16,7 +16,7 @@
     <?php wp_deregister_script('jquery'); ?>
 
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> ontouchstart="">
 <?php wp_head(); ?>
 
     <div class="wrapper"><!-- wrapper start -->
@@ -26,6 +26,10 @@
            </h1>
             <img src="<?php echo esc_url(get_theme_file_uri('images/main-image-n.jpg')); ?>" alt="メインイメージ">
             <h1 class="">地域社会への貢献</h1>
+            <div class="arrow-wrap">
+                <div class="arrow"></div>
+                <span>page top</span>
+            </div>
         </header>
         <nav id="nav" class="nav">
             <div class="nav-box flex-box">
@@ -46,7 +50,7 @@
                 <a href="https://www.facebook.com/labwel.co.jp/">Facebook</a>
             </div>
             <div class="flex-item flex-item5">
-                <a href="#">お問い合わせ</a>
+                <a href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせ</a>
             </div>
             </div>
         </nav>

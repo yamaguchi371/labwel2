@@ -10,6 +10,7 @@ get_header(); ?>
                 <h1 class="article-title"><?php the_title(); ?></h1>
                 <div class="content page">
                     <h2>サービス利用までの流れ</h2>
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="">
                     <h2 id="typea">就労継続支援A型事業所</h2>
                     <h3>やりがいの見つかるA型</h3>
                     <div class="row mb70">

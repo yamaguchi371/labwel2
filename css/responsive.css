@@ -61,6 +61,9 @@
         grid-row-gap: 5%;
         
     }
+    .card-header {
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (max-width: 768px) {
