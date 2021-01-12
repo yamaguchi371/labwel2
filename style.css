@@ -212,15 +212,17 @@ a:focus {
 }
 
 .header h1:nth-child(3) {
-    font-size: 39px;
-    font-family: "ぼくたちのゴシックレギュラー";
+    font-size: 24px;
+    font-weight: 700;
+/*    font-family: "ぼくたちのゴシックレギュラー";*/
+    mix-blend-mode: screen;
     color: var(--base-color);
-/*    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));*/
     position: absolute;
     top: 20%;
-    right: 20%;
+    right: 10%;
 }
 
+/*
 .arrow-wrap {
     position: fixed;
     top: 70vh;
@@ -256,6 +258,7 @@ a:focus {
     font-size: 12px;
     font-style: italic;
 }
+*/
 
 
 /* カード部分のヘッダー */
@@ -322,7 +325,7 @@ a:focus {
 .nav-box > .flex-item:hover > .nav-box {
     z-index: 2;
     width: 200px;
-    margin: 20% auto 0;
+    margin: 20px auto 0;
 }
 .nav-box > .flex-item > .nav-box > .flex-item {
     overflow: hidden;
@@ -377,6 +380,7 @@ a:focus {
     margin-top: 80px;
 }
 
+
 /* 事業所紹介セクション */
 
 .service-guide {
@@ -396,7 +400,7 @@ a:focus {
     opacity: 0.8;
 }
 
-.service-guide a {
+a > .service-guide {
     color: var(--base-color);
 }
 
@@ -435,6 +439,7 @@ a:focus {
     margin-top: 1.5rem;
     padding-left: 1rem;
     line-height: 1.75;
+    word-break: break-all;
     position: relative;
 }
 

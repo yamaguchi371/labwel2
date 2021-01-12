@@ -4,10 +4,18 @@
     <aside class="sidebar sidebar1"></aside>
     <main id="main" class="main">
         <!-- main start -->
-        <h2 class="service-guide">
-            <span><a href="<?php echo esc_url(home_url('/service')) ?>" target="_blank" rel="noopener noreferrer">就労継続支援サービス利用希望の方</a></span>
-            <span class="click">コチラを<br>クリック!!</span>
-        </h2>
+        
+        <a href="#" class="gropehome">
+            <h2>グループホーム「ライフいっぽ和久野」</h2>
+        </a>
+        
+        <a href="<?php echo esc_url(home_url('/service')) ?>" target="_blank" rel="noreferrer noopener">
+            <h2 class="service-guide">
+                <span>就労継続支援サービス利用希望の方</span>
+                <span class="click">ここを<br>クリック!!</span>
+            </h2>
+        </a>
+        
         <section class="f-section">
             <div class="flex-box office-info">
                 <div class="flex-item">
@@ -21,6 +29,9 @@
                     </h3>
                     <p class="office-desc">
                         やりがいの見つかる『A型』<br>バリエーション豊富なお仕事内容だから<br>自分のやりがいにつながる得意なお仕事が<br>きっと見つかります。
+                        <br>
+                        <br>
+                        <br>
                         <span><a href="<?php echo esc_url(home_url('/service#typea')) ?>">詳細</a></span>
                     </p>
                 </div>
@@ -32,7 +43,10 @@
                         </span>
                     </h3>
                     <p class="office-desc">
-                        自分の居場所が見つかる『B型』<br>みんなとお仕事するのが楽しくなる。<br>そんな働きやすい環境と楽しい<br>人間関係づくりにこだわりました。
+                        自分の居場所が見つかる『B型』<br>みんなとお仕事するのが楽しくなる。<br>そんな働きやすい環境と<br>楽しい人間関係づくりにこだわりました。
+                        <br>
+                        <br>
+                        <br>
                         <span><a href="<?php echo esc_url(home_url('/service#typeb')); ?>">詳細</a></span>
                     </p>
                 </div>
@@ -40,7 +54,7 @@
         </section><!-- f-section end -->
         <section class="f-section">
             <h2 class="social-work-title">
-               地域社会への取り組み
+               お仕事の内容
             </h2>
             <div class="grid-box social-work">
                 <div class="card box-item1">
