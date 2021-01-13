@@ -418,16 +418,42 @@ a > .service-guide {
     border-bottom: 3px solid var(--main-color);
     position: relative;
 }
+.office-category1 {
+    font-size: 33px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 3px solid var(--main-color);
+    position: relative;
+}
+
+.grouphome > .flex-item {
+    width: 50%;
+}
+.grouphome a {
+    text-decoration: underline;
+}
+.grouphome a:hover {
+    opacity: 0.6;
+}
 
 .office-info {
     justify-content: space-around;
     align-items: center;
+    row-gap: 3em;
 }
 
 .office-info .flex-item {
-    width: 50%;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.office-info .flex-item1 {
+    width: 100%;
+}
+
+.office-info .flex-item2,
+.office-info .flex-item3 {
+    width: 50%;
 }
 
 .ipppo-logo > img{

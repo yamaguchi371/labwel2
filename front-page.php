@@ -5,10 +5,6 @@
     <main id="main" class="main">
         <!-- main start -->
         
-        <a href="#" class="gropehome">
-            <h2>グループホーム「ライフいっぽ和久野」</h2>
-        </a>
-        
         <a href="<?php echo esc_url(home_url('/service')) ?>" target="_blank" rel="noreferrer noopener">
             <h2 class="service-guide">
                 <span>就労継続支援サービス利用希望の方</span>
@@ -18,7 +14,22 @@
         
         <section class="f-section">
             <div class="flex-box office-info">
-                <div class="flex-item">
+               <div class="flex-item flex-item1">
+                   <h3 class="office-category1">グループホーム「和久野」</h3>
+                   <h4 class="mt-3 font-weight-bold">入居者募集中</h4>
+                   <div class="flex-box grouphome">
+                       <div class="flex-item">
+                           敦賀市和久野2号東河原17-3<br>
+                           近くのコンビニまで徒歩5分
+                       </div>
+                       <div class="flex-item">
+                          サービス提供時間24時間365日<br>
+                          <div class="text-right"><a href="#">詳細</a></div>
+                       </div>
+                   </div>
+                   
+               </div>
+                <div class="flex-item flex-item2">
                     <h3 class="office-category">就労継続支援A型事業所
                         <span class="ipppo-logo">
                             <img src="<?php echo esc_url(get_theme_file_uri('images/ipppo.jpg')); ?>" alt="">
@@ -35,7 +46,7 @@
                         <span><a href="<?php echo esc_url(home_url('/service#typea')) ?>">詳細</a></span>
                     </p>
                 </div>
-                <div class="flex-item">
+                <div class="flex-item flex-item3">
                     <h3 class="office-category">
                         就労継続支援B型事業所
                         <span class="ipppo-logo">
