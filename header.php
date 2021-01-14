@@ -53,7 +53,7 @@ endif;
                <span><a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/logo.png')); ?>" alt="LABwel"></a></span>
            </h1>
             <img src="<?php echo esc_url(get_theme_file_uri('images/main-image-n.jpg')); ?>" alt="メインイメージ">
-            <h1 class="">株式会社LABwelはお仕事を通して<br>自分の存在価値・やる気・新たな能力の発見など、<br>利用者さんの成長に繋がる自立を支援をする会社です。</h1>
+            <h1 class="policy">株式会社LABwelはお仕事を通して<br>自分の存在価値・やる気・新たな能力の発見など、<br>利用者さんの成長に繋がる自立を支援をする会社です！</h1>
 <!--
             <div class="arrow-wrap">
                 <div class="arrow"></div>

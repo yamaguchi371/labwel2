@@ -217,6 +217,7 @@ a:focus {
 /*    font-family: "ぼくたちのゴシックレギュラー";*/
     mix-blend-mode: screen;
     color: var(--base-color);
+    transform: rotate(-7deg) skewX(-7deg);
     position: absolute;
     top: 20%;
     right: 10%;
@@ -419,15 +420,20 @@ a > .service-guide {
     position: relative;
 }
 .office-category1 {
-    font-size: 33px;
-    font-weight: 500;
+    font-size: 20px;
     padding-bottom: 5px;
+    justify-content: space-between;
     border-bottom: 3px solid var(--main-color);
     position: relative;
 }
 
+.grouphome {
+    
+}
+
 .grouphome > .flex-item {
     width: 50%;
+    margin-top: 20px;
 }
 .grouphome a {
     text-decoration: underline;
@@ -442,7 +448,7 @@ a > .service-guide {
     row-gap: 3em;
 }
 
-.office-info .flex-item {
+.office-info > .flex-item {
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -486,6 +492,17 @@ a > .service-guide {
 }
 
 .social-work-title {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid var(--main-color);
+    justify-content: space-between;
+    position: relative;
+}
+
+/*
+.social-work-title {
     font-weight: bold;
     text-align: center;
     position: relative;
@@ -511,6 +528,7 @@ a > .service-guide {
     bottom: 50%;
     right: 50px;
 }
+*/
 
 
 .social-work {

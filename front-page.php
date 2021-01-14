@@ -14,21 +14,6 @@
         
         <section class="f-section">
             <div class="flex-box office-info">
-               <div class="flex-item flex-item1">
-                   <h3 class="office-category1">グループホーム「和久野」</h3>
-                   <h4 class="mt-3 font-weight-bold">入居者募集中</h4>
-                   <div class="flex-box grouphome">
-                       <div class="flex-item">
-                           敦賀市和久野2号東河原17-3<br>
-                           近くのコンビニまで徒歩5分
-                       </div>
-                       <div class="flex-item">
-                          サービス提供時間24時間365日<br>
-                          <div class="text-right"><a href="#">詳細</a></div>
-                       </div>
-                   </div>
-                   
-               </div>
                 <div class="flex-item flex-item2">
                     <h3 class="office-category">就労継続支援A型事業所
                         <span class="ipppo-logo">
@@ -61,11 +46,35 @@
                         <span><a href="<?php echo esc_url(home_url('/service#typeb')); ?>">詳細</a></span>
                     </p>
                 </div>
+                <div class="flex-item flex-item1">
+                   <h3 class="office-category1 flex-box">
+                   <div class="flex-item">グループホーム「ライフいっぽ和久野」</div>
+                   <div class="flex-item">入居者募集</div>
+                   </h3>
+                   <div class="flex-box grouphome">
+                       <div class="flex-item">
+                           敦賀市和久野2号東河原17-3<br>
+                           近くのコンビニまで徒歩5分<br><br>
+                           家賃<br><br>
+                           1F<br>通常35,000円/月を<br>25,000円/月<br>
+                           （１０部屋限定）<br><br>
+                           2F<br>通常55,000円/月を<br>45,000円/月<br>
+                           （５部屋限定）
+                       </div>
+                       <div class="flex-item">
+                          サービス提供時間24時間365日<br>
+                          入居相談受付中
+                          <div class="text-right"><a href="#">詳細</a></div>
+                       </div>
+                   </div>
+                   
+               </div>
             </div>
         </section><!-- f-section end -->
         <section class="f-section">
-            <h2 class="social-work-title">
-               お仕事の内容
+            <h2 class="social-work-title flex-box">
+              <div class="flex-item">お仕事の内容</div>
+              <div class="flex-item">地域社会への貢献に取り組んでいます</div>
             </h2>
             <div class="grid-box social-work">
                 <div class="card box-item1">
