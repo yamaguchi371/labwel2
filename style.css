@@ -421,6 +421,7 @@ a > .service-guide {
 }
 .office-category1 {
     font-size: 20px;
+    align-items: baseline;
     padding-bottom: 5px;
     justify-content: space-between;
     border-bottom: 3px solid var(--main-color);
@@ -582,7 +583,7 @@ a > .service-guide {
 -------------------------------------------------------------*/
 .article-title {
     font-family: 'Noto Sans JP';
-    font-size: 2.5em;
+    font-size: 1.75em;
     font-weight: 700;
     width: 80%;
     margin-top: 100px;
@@ -595,25 +596,30 @@ a > .service-guide {
 }
 
 .page > h2 {
-    font-size: 2.5em;
+    width: 50%;
+    font-size: 20px;
     font-weight: 500;
+    border-bottom: 3px solid var(--main-color);
     margin-bottom: 70px;
     text-indent: 10px;
     position: relative;
 }
+/*
 .page > h2::after {
     display: block;
     content: '';
-    width: 80%;
+    width: 70%;
     height: 0.45em;
     background-color: #AFFD6B;
     position: absolute;
-    bottom: 0.1em;
+    bottom: 0.05em;
     z-index: -1
 }
+*/
 
 .page > h3 {
     margin-bottom: 70px;
+    font-size: 18px;
 }
 
 .page > ul {
@@ -621,7 +627,7 @@ a > .service-guide {
     margin-bottom: 150px;
 }
 .page > ul > li {
-    font-size: 1.5em;
+    font-size: 18px;
     margin-bottom: 1rem;
     text-indent: 1em;
     position: relative;
@@ -671,7 +677,8 @@ a > .service-guide {
 }
 
 h3.description {
-    border-left: 10px solid var(--underline-color);
+    font-size: 18px;
+/*    border-left: 10px solid var(--underline-color);*/
     padding-left: 10px;
     margin-bottom: 70px;
 }

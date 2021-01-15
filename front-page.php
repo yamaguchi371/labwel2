@@ -48,22 +48,17 @@
                 </div>
                 <div class="flex-item flex-item1">
                    <h3 class="office-category1 flex-box">
-                   <div class="flex-item">グループホーム「ライフいっぽ和久野」</div>
-                   <div class="flex-item">入居者募集</div>
+                   <div class="flex-item">グループホーム『ライフいっぽ和久野』</div>
+                   <div class="flex-item"><h3 class="font-weight-bold text-danger">入居相談受付中！</h3></div>
                    </h3>
                    <div class="flex-box grouphome">
                        <div class="flex-item">
-                           敦賀市和久野2号東河原17-3<br>
-                           近くのコンビニまで徒歩5分<br><br>
-                           家賃<br><br>
-                           1F<br>通常35,000円/月を<br>25,000円/月<br>
-                           （１０部屋限定）<br><br>
-                           2F<br>通常55,000円/月を<br>45,000円/月<br>
-                           （５部屋限定）
+                          <p>安心して自立できる『グループホーム』<br>完全個室にこだわり<br>セキュリティ万全の<br>住みやすい住居をご提供致します。</p>
                        </div>
                        <div class="flex-item">
-                          サービス提供時間24時間365日<br>
-                          入居相談受付中
+                         敦賀市和久野2号東河原17-3<br>
+                           近くのコンビニまで徒歩5分<br><br>
+                          サービス提供時間24時間365日<br><br>
                           <div class="text-right"><a href="#">詳細</a></div>
                        </div>
                    </div>
@@ -74,7 +69,7 @@
         <section class="f-section">
             <h2 class="social-work-title flex-box">
               <div class="flex-item">お仕事の内容</div>
-              <div class="flex-item">地域社会への貢献に取り組んでいます</div>
+              <div class="flex-item">地域社会への貢献に取り組んでいます！</div>
             </h2>
             <div class="grid-box social-work">
                 <div class="card box-item1">
@@ -107,7 +102,9 @@
                 </div>
                 <div class="card box-item8">
                     <header class="card-header">ケータリング</header>
-                    <img src="<?php echo esc_url(get_theme_file_uri('images/catering.jpg')); ?>" alt="ケータリング">
+                    <a href="<?php echo esc_url(home_url('/local#catering')); ?>">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/catering.jpg')); ?>" alt="ケータリング">
+                    </a>
                 </div>
                 <div class="card box-item9">
                     <header class="card-header">特別清掃</header>
