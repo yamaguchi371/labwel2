@@ -174,6 +174,11 @@ a:focus {
     flex: 1 1 auto;
 }
 
+.flex-item h3 {
+    font-size: 20px;
+    margin-bottom: 0.5em;
+}
+
 .grid-box {
     display: grid;
 }
@@ -186,8 +191,17 @@ a:focus {
 .wrapper {
 }
 
+.mb40 {
+    margin-bottom: 40px;
+}
+
 .mb70 {
     margin-bottom: 70px;
+}
+
+.bg-gray {
+    background: #cecece;
+    border: 2px solid var(--main-color);
 }
 
 /*-------------------------------------------------------------
@@ -581,6 +595,11 @@ a > .service-guide {
 /*-------------------------------------------------------------
  6.page 固定ページ
 -------------------------------------------------------------*/
+.content p {
+    width: 100%;
+    word-break: normal;
+}
+
 .article-title {
     font-family: 'Noto Sans JP';
     font-size: 1.75em;
@@ -600,7 +619,7 @@ a > .service-guide {
     font-size: 20px;
     font-weight: 500;
     border-bottom: 3px solid var(--main-color);
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     text-indent: 10px;
     position: relative;
 }
@@ -618,13 +637,13 @@ a > .service-guide {
 */
 
 .page > h3 {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     font-size: 18px;
 }
 
 .page > ul {
     margin-top: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 3em;
 }
 .page > ul > li {
     font-size: 18px;
@@ -680,7 +699,7 @@ h3.description {
     font-size: 18px;
 /*    border-left: 10px solid var(--underline-color);*/
     padding-left: 10px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 .page > .section01 {
     margin-bottom: 11em;
@@ -693,6 +712,13 @@ h3.description {
 }
 
 .section01 > .row {
+    row-gap: 1.5em;
+}
+.green-line {
+    background: linear-gradient(transparent 70%, #AFFD6B 0%);
+}
+.page-column {
+    justify-content: space-between;
     row-gap: 1.5em;
 }
 

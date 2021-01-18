@@ -10,7 +10,6 @@ get_header(); ?>
         <article <?php body_class(); ?>>
             <h1 class="article-title"><?php the_title(); ?></h1>
             <div class="content page">
-                <h2>Index</h2>
                 <ul>
                     <li class="list-item list-item1"><a href="#coast__clean">海岸清掃</a></li>
                     <li class="list-item list-item2"><a href="#garbage">戸別収集</a></li>
@@ -37,10 +36,13 @@ get_header(); ?>
                             <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="">
                         </div>
                     </div>
+                    <div class="bg-gray">
                     <h3 class="description">
-                        ＮＨＫ取材を受けました 2020.3.26
+                       <span class="green-line">
+                           ＮＨＫ取材を受けました 2020.3.26
+                       </span>
                     </h3>
-                    <p>２０１９年、大阪市２０サミット。安倍首相の２０５０年までにプラスチックゴミによる追加汚染ゼロ種目目指すLABwelの海岸清掃活動が国からも注目され取材されました。</p>
+                    <p><span class="green-line">２０１９年、大阪市２０サミット。安倍首相の２０５０年までにプラスチックゴミによる追加汚染ゼロ種目目指すLABwelの海岸清掃活動が国からも注目され取材されました。</span></p>
                     <div class="row mb70">
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="">
@@ -53,7 +55,7 @@ get_header(); ?>
                         </div>
                     </div>
                     <h3 class="description">
-                        水島・特別海岸清掃へ行ってきました　2020.6
+                        <span class="green-line">水島・特別海岸清掃へ行ってきました　2020.6</span>
                     </h3>
                     <div class="row mb70">
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -65,12 +67,13 @@ get_header(); ?>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="">
                         </div>
+                    </div>
                     </div>
                 </section>
                 <h2 id="garbage">戸別収集</h2>
                 <section class="section01">
                     <h3 class="description">
-                        「一般廃棄物収集運搬許可業者　敦賀市指令環□498」を敦賀市より許可いただき一般家庭の不用品や、粗大ゴミの分別、回収を行っています
+                        一般廃棄物収集・運搬許可を敦賀市よりいただき一般家庭の不用品や、粗大ゴミの分別、<br>回収を行っています
                     </h3>
                 </section>
                 <h2 id="old__help">高齢者生活支援</h2>

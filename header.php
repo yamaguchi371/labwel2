@@ -70,10 +70,10 @@ endif;
                 <a href="<?php echo esc_url(home_url('/about')); ?>">会社情報</a>
             </div>
             <div class="flex-item flex-item3">
-                <a href="<?php echo esc_url(home_url('/guide')); ?>">事業所のご案内</a>
+                <a href="#">事業所のご案内</a>
                 <div class="nav-box flex-box">
-                    <div class="flex-item flex-item6"><a href="<?php echo esc_url(home_url('/service')); ?>">就労継続支援について</a></div>
-                    <div class="flex-item flex-item7"><a href="<?php echo esc_url(home_url('/local')); ?>">地域社会への取り組み</a></div>
+                    <div class="flex-item flex-item6"><a href="<?php echo esc_url(home_url('/service')); ?>">事業所のご案内</a></div>
+                    <div class="flex-item flex-item7"><a href="<?php echo esc_url(home_url('/local')); ?>">お仕事の内容</a></div>
                 </div>
             </div>
             <div class="flex-item flex-item4">
