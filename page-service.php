@@ -29,7 +29,7 @@ get_header(); ?>
                             <img src="<?php echo esc_url(get_theme_file_uri('images/kelpslice.jpg')); ?>" alt="昆布かき">
                         </div>
                     </div>
-                    <h2>サービス利用までの流れ</h2>
+                    <h2>サービス利用開始までの流れ</h2>
                     <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="" class="mb70">
                     <h2 id="typeb">就労継続支援B型事業所
                         <span class="ipppo-logo">
@@ -48,27 +48,28 @@ get_header(); ?>
                             <img src="<?php echo esc_url(get_theme_file_uri('images/clean5.jpg')); ?>" alt="寺院清掃">
                         </div>
                     </div>
-                    <h2>サービス利用までの流れ</h2>
+                    <h2>サービス利用開始までの流れ</h2>
                     <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="" class="mb70">
                     
                     <h2>グループホーム（共同生活援助）</h2>
-                    <h2>サービス利用までの流れ</h2>
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/gropehome.jpg')); ?>" alt="ライフいっぽ和久野" class="img__home mb70">
+                    <h2>サービス利用開始までの流れ</h2>
                     <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="" class="mb70">
                     
                     <h2>施設</h2>
                     
                     <ul>
                         <li class="list-item list-item1">
-                            本社/ipppo! 福井県敦賀市公文名54-10-1
+                            本社/ipppo!　　　　福井県敦賀市公文名54-10-1
                         </li>
                         <li class="list-item list-item2">
-                            +ipppo! 福井県敦賀市野神2-34-2
+                            +ipppo!　　　　　　福井県敦賀市野神2-34-2
                         </li>
                         <li class="list-item list-item3">
-                            Be ipppo! 福井県敦賀市野神15-4-13
+                            Be ipppo!　　　　　福井県敦賀市野神15-4-13
                         </li>
                         <li class="list-item list-item4">
-                            ライフいっぽ和久野 福井県敦賀市和久野2号東河原17-3
+                            ライフいっぽ和久野&nbsp;福井県敦賀市和久野2号東河原17-3
                         </li>
                     </ul>
                     
