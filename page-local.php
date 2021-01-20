@@ -1,5 +1,5 @@
 <?php
-/* Template Name: 地域社会への取り組み */
+/* Template Name: お仕事の内容 */
 get_header(); ?>
 <div class="l-wrapper grid-box">
     <!-- l-wrapper start -->
@@ -27,15 +27,16 @@ get_header(); ?>
                     </h3>
                     <div class="row mb70">
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <img src="<?php echo esc_url(get_theme_file_uri('images/clean9.jpg')); ?>" alt="">
+                            <img src="<?php echo esc_url(get_theme_file_uri('images/coast2.jpg')); ?>" alt="">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <img src="<?php echo esc_url(get_theme_file_uri('images/coast3.jpg')); ?>" alt="">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="">
+                            <img src="<?php echo esc_url(get_theme_file_uri('images/clean9.jpg')); ?>" alt="">
                         </div>
                     </div>
+<!--
                     <div class="bg-gray">
                     <h3 class="description">
                        <span class="green-line">
@@ -69,12 +70,24 @@ get_header(); ?>
                         </div>
                     </div>
                     </div>
+-->
                 </section>
                 <h2 id="garbage">戸別収集</h2>
                 <section class="section01">
                     <h3 class="description">
                         一般廃棄物収集・運搬許可を敦賀市よりいただき一般家庭の不用品や、粗大ゴミの分別、<br>回収を行っています
                     </h3>
+                    <div class="row mb70">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <img src="<?php echo esc_url(get_theme_file_uri('images/trash2.jpg')); ?>" alt="">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <img src="<?php echo esc_url(get_theme_file_uri('images/trash3.jpg')); ?>" alt="">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <img src="<?php echo esc_url(get_theme_file_uri('images/trash4.jpg')); ?>" alt="">
+                        </div>
+                    </div>
                     <img src="<?php echo esc_url(get_theme_file_uri('images/flyer.JPG')); ?>" alt="戸別収集広告">
                 </section>
                 <h2 id="old__help">高齢者生活支援</h2>
@@ -93,7 +106,6 @@ get_header(); ?>
                     </div>
 
                 </section>
-                <!-- 何かイメージ入れたいなぁ......(*´ω｀*) -->
                 <h2 id="temple__clean">寺院清掃</h2>
                 <section class="section01">
                     <h3 class="description">
@@ -104,10 +116,10 @@ get_header(); ?>
                             <img src="<?php echo esc_url(get_theme_file_uri('images/clean4.jpg')); ?>" alt="">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="">
+                            <img src="<?php echo esc_url(get_theme_file_uri('images/clean10.jpg')); ?>" alt="">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="">
+                            <img src="<?php echo esc_url(get_theme_file_uri('images/clean11.jpg')); ?>" alt="">
                         </div>
                     </div>
                 </section>
@@ -150,10 +162,10 @@ get_header(); ?>
                             <img src="<?php echo esc_url(get_theme_file_uri('images/cook2.jpg')); ?>" alt="">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="">
+                            <img src="<?php echo esc_url(get_theme_file_uri('images/catering2.jpg')); ?>" alt="">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="">
+                            <img src="<?php echo esc_url(get_theme_file_uri('images/catering3.jpg')); ?>" alt="">
                         </div>
                     </div>
                 </section>
@@ -161,10 +173,10 @@ get_header(); ?>
                 <section class="section01">
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <img src="<?php echo esc_url(get_theme_file_uri('images/catering2.jpg')); ?>" alt="">
+                            <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <img src="<?php echo esc_url(get_theme_file_uri('images/catering3.jpg')); ?>" alt="">
+                            <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="">

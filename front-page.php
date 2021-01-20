@@ -59,7 +59,7 @@
                          敦賀市和久野2号東河原17-3<br>
                            近くのコンビニまで徒歩5分<br><br>
                           サービス提供時間24時間365日<br><br>
-                          <div class="text-right"><a href="#">詳細</a></div>
+                          <div class="text-right"><a href="<?php echo esc_url(home_url('/service#grope')) ?>">詳細</a></div>
                        </div>
                    </div>
                    

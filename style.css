@@ -313,15 +313,27 @@ a:focus {
     padding-top: 20px;
     padding-bottom: 20px;
 */
+    color: var(--base-color);
     text-align: center;
     flex-grow: 1;
     position: relative;
+    cursor: pointer;
+}
+
+.nav-box .flex-item p {
+    padding-top: 20px;
+}
+
+.nav-box .flex-item p:hover,
+.nav-box .flex-itemp p:active {
+    color: var(--card-font-color);
 }
 
 .nav-box .flex-item a {
     display: block;
     padding-top: 20px;
     color: var(--base-color);
+    transition: 0.6s ease-out;
     position: relative;
 }
 .nav-box .flex-item a:hover,
@@ -340,12 +352,12 @@ a:focus {
 .nav-box > .flex-item:hover > .nav-box {
     z-index: 2;
     width: 200px;
-    margin: 20px auto 0;
+    margin: 0 auto;
 }
 .nav-box > .flex-item > .nav-box > .flex-item {
     overflow: hidden;
     height: 0;
-    transition: 0.3s;
+    transition: 0.6s;
 }
 .nav-box > .flex-item:hover > .nav-box .flex-item {
     overflow: visible;

@@ -1,6 +1,6 @@
 
 <?php
-/* Template Name: 就労継続支援について */
+/* Template Name: 事業所のご案内 */
 get_header(); ?>
         <div class="l-wrapper grid-box"><!-- l-wrapper start -->
         <aside class="sidebar sidebar1"></aside>
@@ -51,7 +51,7 @@ get_header(); ?>
                     <h2>サービス利用開始までの流れ</h2>
                     <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="" class="mb70">
                     
-                    <h2>グループホーム（共同生活援助）</h2>
+                    <h2 id="grope">グループホーム（共同生活援助）</h2>
                     <img src="<?php echo esc_url(get_theme_file_uri('images/gropehome.jpg')); ?>" alt="ライフいっぽ和久野" class="img__home mb70">
                     <h2>サービス利用開始までの流れ</h2>
                     <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="" class="mb70">
