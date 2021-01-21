@@ -30,6 +30,15 @@ get_header(); ?>
                         </div>
                     </div>
                     <h2>サービス利用開始までの流れ</h2>
+                    <div class="grid-box flowchart1">
+                       <div class="box-item">見学体験利用</div>
+                       <div class="box-item">計画相談</div>
+                       <div class="box-item">申請</div>
+                       <div class="box-item row-span2">サービスなど利用の計画案提出</div>
+                       <div class="box-item">認定調査</div>
+                       <div class="box-item">受給者証発行</div>
+                       <div class="box-item">サービス利用</div>
+                    </div>
                     <img src="<?php echo esc_url(get_theme_file_uri('images/noimage.jpg')); ?>" alt="" class="mb70">
                     <h2 id="typeb">就労継続支援B型事業所
                         <span class="ipppo-logo">

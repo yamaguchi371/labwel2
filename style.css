@@ -183,6 +183,14 @@ a:focus {
     display: grid;
 }
 
+.row-span2 {
+    grid-row-end: span 2;
+}
+
+.col-span2 {
+    grid-column-end: span 2;
+}
+
 .click {
     font-size: 14px;
     color: var(--base-color);
@@ -736,6 +744,22 @@ h3.description {
 
 .img__home {
     width: 70%;
+}
+
+.flowchart1 {
+    width: 600px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: repeat(5, 60px);
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 15px;
+}
+
+.flowchart1 > .box-item {
+    padding: 10px;
+    text-align: center;
+    word-break: normal;
+    border: 1px solid var(--main-color);
 }
 
 /*-------------------------------------------------------------
