@@ -48,7 +48,7 @@
                 </div>
                 <div class="flex-item flex-item1">
                    <h3 class="office-category1 flex-box">
-                   <div class="flex-item">グループホーム『ライフいっぽ和久野』</div>
+                   <div class="flex-item">共同生活援助 LIFE Ipppo! 和久野</div>
                    <div class="flex-item"><h3 class="font-weight-bold text-danger">入居相談受付中！</h3></div>
                    </h3>
                    <div class="flex-box grouphome">

@@ -748,18 +748,42 @@ h3.description {
 
 .flowchart1 {
     width: 600px;
+    margin-bottom: 5em;
     grid-template-columns: 200px 200px;
-    grid-template-rows: repeat(5, 60px);
+    grid-template-rows: repeat(9, 60px);
     justify-content: space-between;
-    row-gap: 15px;
 }
 
 .flowchart1 > .box-item {
     justify-self: center;
+    position: relative;
 }
 
 .flowchart1 > .box-item > img {
     width: 200px;
+}
+
+.angle {
+    width: 30px;
+    height: 30px;
+    border: 5px solid;
+    border-color: transparent var(--main-color) var(--main-color) transparent;
+    transform: rotate(45deg);
+}
+
+.flowchart2 {
+    width: 600px;
+    margin-bottom: 5em;
+}
+
+.flowchart2 > .box-item {
+    width: 200px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
 }
 
 /*-------------------------------------------------------------
