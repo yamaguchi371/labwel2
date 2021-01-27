@@ -186,9 +186,20 @@ a:focus {
 .row-span2 {
     grid-row-end: span 2;
 }
+.row-span3 {
+    grid-row-end: span 3;
+}
 
 .col-span2 {
     grid-column-end: span 2;
+}
+.col-span3 {
+    grid-column-end: span 3;
+}
+
+.grid-center {
+    justify-self: center;
+    align-self: center;
 }
 
 .click {
@@ -408,7 +419,7 @@ a:focus {
 
 
 .main {
-    word-break: keep-all;
+    
 }
 
 .f-section {
@@ -717,7 +728,6 @@ a > .service-guide {
 
 h3.description {
     font-size: 18px;
-/*    border-left: 10px solid var(--underline-color);*/
     padding-left: 10px;
     margin-bottom: 30px;
 }
@@ -747,17 +757,19 @@ h3.description {
 }
 
 .flowchart1 {
-    width: 600px;
+    width: 700px;
     margin-bottom: 5em;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: repeat(9, 60px);
+    grid-template-columns: 200px 400px;
+    grid-column-gap: 10px;
+    grid-auto-rows: 60px;
+    grid-row-gap: 10px;
     justify-content: space-between;
 }
 
 .flowchart1 > .box-item {
-    justify-self: center;
     position: relative;
 }
+
 
 .flowchart1 > .box-item > img {
     width: 200px;
