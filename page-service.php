@@ -80,7 +80,7 @@ get_header(); ?>
                         <div class="angle"></div>
                     </div>
                     <div class="box-item grid-center">
-                        ご利用開始
+                        利用開始
                     </div>
                 </div>
 
@@ -110,7 +110,7 @@ get_header(); ?>
                         見学
                     </div>
                     <div class="box-item row-span2">
-                        市町村の障害福祉窓口やハローワーク、WebサイトなどからB型事業所を紹介してもらいます。見学を申し込むことで体験を受けられることが出来ます。
+                        <span class="green-line">事業所に連絡を頂いて、ご都合の良い日時に見学</span>に来て頂くことができます。
                     </div>
                     <div class="box-item grid-center">
                         <div class="angle"></div>
@@ -119,7 +119,16 @@ get_header(); ?>
                         体験
                     </div>
                     <div class="box-item row-span2">
-                        体験などで事業所の雰囲気などを知って利用するかどうかを決め、利用申し込みを行います。
+                        見学をして頂いた後、実際に事業所で体験して頂き<span class="green-line">事業所の雰囲気などを知って利用するかどうかを決め、</span>利用申し込みを行います。
+                    </div>
+                    <div class="box-item grid-center">
+                        <div class="angle"></div>
+                    </div>
+                    <div class="box-item grid-center">
+                        ご利用手続き
+                    </div>
+                    <div class="box-item row-span2">
+                        採用通知が届いた場合、各市町や、相談支援事業者などと連絡を取り、<span class="green-line">受給者証発行の手続きを行います。</span>
                     </div>
                     <div class="box-item grid-center">
                         <div class="angle"></div>
@@ -128,60 +137,46 @@ get_header(); ?>
                         利用開始
                     </div>
                     <div class="box-item">
-                        利用申し込みを行い、サービスを受けるための受給者証が発行されることで利用することが出来ます。
+                        利用申し込みを行い、<span class="green-line">サービスを受けるための受給者証が発行されることで利用することが出来ます。</span>
                     </div>
                     
                 </div>
 
                 <h2 id="grope">共同生活援助 LIFE Ipppo! 和久野</h2>
+                <h3>2021年2月開所予定</h3>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/gropehome.jpg')); ?>" alt="ライフいっぽ和久野" class="img__home mb70">
                 <h2>サービス利用開始までの流れ</h2>
                 
-                <div class="flowchart2">
-                    <div class="box-item">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/flow8.png')); ?>" alt="お問い合わせ">
+                <div class="grid-box flowchart1">
+                    <div class="box-item grid-center">
+                        見学
                     </div>
-                    <div class="box-item">
+                    <div class="box-item row-span2">
+                        窓口に連絡を入れてもらい、<span class="green-line">ご都合の良い日時に見学に来て頂くことが出来ます。</span>
+                    </div>
+                    <div class="box-item grid-center">
                         <div class="angle"></div>
                     </div>
-                    <div class="box-item">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/flow9.png')); ?>" alt="見学">
+                    <div class="box-item grid-center">
+                        面談
                     </div>
-                    <div class="box-item">
+                    <div class="box-item row-span2">
+                        面談を通して<span class="green-line">サービスを受けられるか決定します。</span>
+                    </div>
+                    <div class="box-item grid-center">
                         <div class="angle"></div>
                     </div>
-                    <div class="box-item">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/flow10.png')); ?>" alt="申し込み">
+                    <div class="box-item grid-center">
+                        ご利用手続き
                     </div>
-                    <div class="box-item">
+                    <div class="box-item row-span2">
+                        各市町や、事業者などと連絡を取り<span class="green-line">受給者証発行の手続きを行います。</span>
+                    </div>
+                    <div class="box-item grid-center">
                         <div class="angle"></div>
                     </div>
-                    <div class="box-item">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/flow11.png')); ?>" alt="申し込み">
-                    </div>
-                    <div class="box-item">
-                        <div class="angle"></div>
-                    </div>
-                    <div class="box-item">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/flow12.png')); ?>" alt="入居決定">
-                    </div>
-                    <div class="box-item">
-                        <div class="angle"></div>
-                    </div>
-                    <div class="box-item">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/flow13.png')); ?>" alt="入居">
-                    </div>
-                    <div class="box-item">
-                        <div class="angle"></div>
-                    </div>
-                    <div class="box-item">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/flow14.png')); ?>" alt="利用開始">
-                    </div>
-                    <div class="box-item">
-                        <div class="angle"></div>
-                    </div>
-                    <div class="box-item">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/flow15.png')); ?>" alt="契約">
+                    <div class="box-item grid-center">
+                        利用開始
                     </div>
                 </div>
                 
