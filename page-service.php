@@ -143,8 +143,38 @@ get_header(); ?>
                 </div>
 
                 <h2 id="grope">共同生活援助 LIFE Ipppo! 和久野</h2>
-                <h3>2021年2月開所予定</h3>
-                <img src="<?php echo esc_url(get_theme_file_uri('images/gropehome.jpg')); ?>" alt="ライフいっぽ和久野" class="img__home mb70">
+                
+                <img src="<?php echo esc_url(get_theme_file_uri('images/life_ipppo.jpg')); ?>" alt="ライフいっぽ和久野" class="mb70">
+                
+                <div class="flex-box life_ipppo_desc">
+                    <div class="flex-item flex-item1">
+                        <h3>１F、家賃１ヵ月25,000円　１０部屋限定</h3>
+                    </div>
+                    <div class="flex-item flex-item2">
+                        <ul>
+                            <li class="list-item list-item1">
+                                完全個室
+                            </li>
+                            <li class="list-item list-item2">
+                                Wi-Fi無料
+                            </li>
+                            <li class="list-item list-item3">
+                                １F個室はiPad設置（TV電話が出来ます）
+                            </li>
+                            <li class="list-item list-item4">
+                                男女別浴室（男性は１F、女性は２F）
+                            </li>
+                            <li class="list-item list-item5">
+                                エレベーター完備
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex-item flex-item3">
+                        <h3>２F、家賃１ヵ月45,000円　０５部屋限定</h3>
+                    </div>
+                    <div class="flex-item flex-item4"></div>
+                </div>
+                
                 <h2>サービス利用開始までの流れ</h2>
                 
                 <div class="grid-box flowchart1">
