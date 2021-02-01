@@ -142,13 +142,17 @@ get_header(); ?>
                     
                 </div>
 
-                <h2 id="grope">共同生活援助 LIFE Ipppo! 和久野</h2>
+                <h2 id="grope">共同生活援助（グループホーム）LIFE Ipppo!和久野</h2>
+                
+                <h3>夜間でも支援員が常在しているので安心して入居できます！</h3>
+                <p class="font-large font-weight-bold text-danger">2021年2月開所しました！<br>入居相談受付中!!</p>
                 
                 <img src="<?php echo esc_url(get_theme_file_uri('images/life_ipppo.jpg')); ?>" alt="ライフいっぽ和久野" class="mb70">
                 
                 <div class="flex-box life_ipppo_desc">
                     <div class="flex-item flex-item1">
-                        <h3>１F、家賃１ヵ月25,000円　１０部屋限定</h3>
+                       <img src="<?php echo esc_url(get_theme_file_uri('images/room3.jpg')); ?>" alt="１F部屋">
+                        <h3>１F、家賃１ヵ月25,000円 10部屋限定</h3>
                     </div>
                     <div class="flex-item flex-item2">
                         <ul>
@@ -170,9 +174,22 @@ get_header(); ?>
                         </ul>
                     </div>
                     <div class="flex-item flex-item3">
-                        <h3>２F、家賃１ヵ月45,000円　０５部屋限定</h3>
+                       <img src="<?php echo esc_url(get_theme_file_uri('images/room4.jpg')); ?>" alt="２F部屋">
+                        <h3>２F、家賃１ヵ月45,000円 05部屋限定</h3>
                     </div>
-                    <div class="flex-item flex-item4"></div>
+                    <div class="flex-item flex-item4">
+                        <h3>有料サービス</h3>
+                        <p>【食事】<br>朝食：320円　昼食：480円　夕食：500円<br>【家具・家電レンタル】※希望者のみ<br>テレビ：1,000円/月　冷蔵庫：1,000円/月<br>洗濯機：1,000円/月　ベッド：3,000円/月<br>※洗濯機は２Fのみ</p>
+                    </div>
+                    <div class="flex-item flex-item5">
+                        <div class="life_ipppo_desc_left">
+                            サービス提供時間<br>
+                            <span class="font33">２４時間<br>３６５日</span>
+                        </div>
+                        <div class="life_ipppo_desc_right">
+                            ・サービス管理責任者　・生活支援員<br>・世話人　・看護職員　・夜間支援員常在<br>・警備セキュリティ（セコム）完備<br>・火災報知器　・スプリンクラー設置
+                        </div>
+                    </div>
                 </div>
                 
                 <h2>サービス利用開始までの流れ</h2>

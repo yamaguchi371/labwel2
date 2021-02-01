@@ -223,6 +223,10 @@ a:focus {
     border: 2px solid var(--main-color);
 }
 
+.font-large {
+    font-size: 55px;
+}
+
 /*-------------------------------------------------------------
 2.header
 -------------------------------------------------------------*/
@@ -786,12 +790,45 @@ h3.description {
 .life_ipppo_desc {
     justify-content: center;
     align-content: center;
+    row-gap: 40px;
 }
 
 .life_ipppo_desc > .flex-item {
     width: 50%;
     min-height: 200px;
     align-self: center;
+}
+
+.life_ipppo_desc > .flex-item > img {
+    width: 300px;
+    margin-bottom: 1em;
+}
+.life_ipppo_desc > .flex-item5 {
+    width: 100%;
+}
+
+.life_ipppo_desc_left {
+    width: 200px;
+    height: 150px;
+    color: var(--base-color);
+    background-color: var(--link-color);
+    padding: 10px 15px;
+    border-radius: 10px 0 0 10px;
+    float: left;
+}
+
+.font33 {
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.life_ipppo_desc_right {
+    padding: 15px 15px;
+    width: 400px;
+    height: 150px;
+    border: 3px solid var(--link-color);
+    border-radius: 0 10px 10px 0;
+    float: left;
 }
 
 .flowchart2 {
