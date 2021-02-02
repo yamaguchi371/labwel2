@@ -30,11 +30,78 @@ get_header(); ?>
                         <img src="<?php echo esc_url(get_theme_file_uri('images/kelpslice.jpg')); ?>" alt="昆布かき">
                     </div>
                 </div>
-                
+
                 <h2>サービス利用開始までの流れ</h2>
 
+                <div class="flowchart1">
+                    <div class="box-item box-item1">
+                        <div class="flex-item">
+                            <p>ハローワーク</p>
+                        </div>
+                        <div class="flex-item">
+                            <p>ハローワークで紹介状をもらって<br>面接の日程を調整してもらいます。<br><span class="green-line">※面接の前に見学して頂くことも可能です。</span></p>
+                        </div>
+                    </div>
+                    <div class="box-item box-item2">
+                        <div class="angle"></div>
+                    </div>
+                    <div class="box-item box-item3">
+                        <div class="flex-item">
+                            <p>面接</p>
+                        </div>
+                        <div class="flex-item">
+                            <p>面接を行います。アセスメントの日程調整も行います。<span class="green-line">持ち物として履歴書、紹介状、医師の診断書が必要となります。</span></p>
+                        </div>
+                    </div>
+                    <div class="box-item box-item4">
+                        <div class="angle"></div>
+                    </div>
+                    <div class="box-item box-item5">
+                        <div class="flex-item">
+                            <p>アセスメント</p>
+                        </div>
+                        <div class="flex-item">
+                            <p>職場を体験して頂きます。なお、<span class="green-line">この期間は賃金は発生いたしません。</span></p>
+                        </div>
+                    </div>
+                    <div class="box-item box-item6">
+                        <div class="angle"></div>
+                    </div>
+                    <div class="box-item box-item7">
+                        <div class="flex-item">
+                            <p>採用通知</p>
+                        </div>
+                        <div class="flex-item">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="box-item box-item8">
+                        <div class="angle"></div>
+                    </div>
+                    <div class="box-item box-item9">
+                        <div class="flex-item">
+                            <p>ご利用手続き</p>
+                        </div>
+                        <div class="flex-item">
+                            <p>採用通知が届いた場合、各市町や、相談支援事業者などと連絡を取り、<span class="green-line">受給者証発行の手続きを行います。</span></p>
+                        </div>
+                    </div>
+                    <div class="box-item box-item10">
+                        <div class="angle"></div>
+                    </div>
+                    <div class="box-item box-item11">
+                        <div class="flex-item">
+                            <p>利用開始</p>
+                        </div>
+                        <div class="flex-item">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--
                 <div class="grid-box flowchart1">
-                    <div class="box-item grid-center">
+                    <div class="box-item grid-center chart-left">
                         ハローワーク
                     </div>
                     <div class="box-item row-span2">
@@ -83,6 +150,7 @@ get_header(); ?>
                         利用開始
                     </div>
                 </div>
+-->
 
 
                 <h2 id="typeb">就労継続支援B型事業所
@@ -104,13 +172,57 @@ get_header(); ?>
                 </div>
                 <h2>サービス利用開始までの流れ</h2>
                 
+                <div class="flowchart1">
+                    <div class="box-item box-item1">
+                        <div class="flex-item">
+                            <p>見学</p>
+                        </div>
+                        <div class="flex-item">
+                            <p><span class="green-line">事業所の仕事の内容や雰囲気</span>を知ってもらいます。</p>
+                        </div>
+                    </div>
+                    <div class="box-item box-item2">
+                        <div class="angle"></div>
+                    </div>
+                    <div class="box-item box-item3">
+                        <div class="flex-item">
+                            <p>体験</p>
+                        </div>
+                        <div class="flex-item">
+                            <p>見学をして頂いた後、実際に事業所で体験して頂き<span class="green-line">事業所の雰囲気などを知って利用するかどうかを決め、</span>利用申し込みを行います。</p>
+                        </div>
+                    </div>
+                    <div class="box-item box-item4">
+                        <div class="angle"></div>
+                    </div>
+                    <div class="box-item box-item5">
+                        <div class="flex-item">
+                            <p>ご利用手続き</p>
+                        </div>
+                        <div class="flex-item">
+                            <p>利用しようと決めた場合、各市町や、相談支援事業者などと連絡を取り、<span class="green-line">受給者証発行の手続きを行います。</span></p>
+                        </div>
+                    </div>
+                    <div class="box-item box-item6">
+                        <div class="angle"></div>
+                    </div>
+                    <div class="box-item box-item7">
+                        <div class="flex-item">
+                            <p>利用開始</p>
+                        </div>
+                        <div class="flex-item">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+<!--
                 <div class="grid-box flowchart1">
-                    
+
                     <div class="box-item grid-center">
                         見学
                     </div>
                     <div class="box-item row-span2">
-                        <span class="green-line">事業所に連絡を頂いて、ご都合の良い日時に見学</span>に来て頂くことができます。
+                        <span class="green-line">事業所の仕事の内容や雰囲気</span>を知ってもらいます。
                     </div>
                     <div class="box-item grid-center">
                         <div class="angle"></div>
@@ -128,7 +240,7 @@ get_header(); ?>
                         ご利用手続き
                     </div>
                     <div class="box-item row-span2">
-                        採用通知が届いた場合、各市町や、相談支援事業者などと連絡を取り、<span class="green-line">受給者証発行の手続きを行います。</span>
+                        利用しようと決めた場合、各市町や、相談支援事業者などと連絡を取り、<span class="green-line">受給者証発行の手続きを行います。</span>
                     </div>
                     <div class="box-item grid-center">
                         <div class="angle"></div>
@@ -137,21 +249,21 @@ get_header(); ?>
                         利用開始
                     </div>
                     <div class="box-item">
-                        利用申し込みを行い、<span class="green-line">サービスを受けるための受給者証が発行されることで利用することが出来ます。</span>
                     </div>
-                    
+
                 </div>
+-->
 
                 <h2 id="grope">共同生活援助（グループホーム）LIFE Ipppo!和久野</h2>
-                
+
                 <h3>夜間でも支援員が常在しているので安心して入居できます！</h3>
                 <p class="font-large font-weight-bold text-danger">2021年2月開所しました！<br>入居相談受付中!!</p>
-                
+
                 <img src="<?php echo esc_url(get_theme_file_uri('images/life_ipppo.jpg')); ?>" alt="ライフいっぽ和久野" class="mb70">
-                
+
                 <div class="flex-box life_ipppo_desc">
                     <div class="flex-item flex-item1">
-                       <img src="<?php echo esc_url(get_theme_file_uri('images/room3.jpg')); ?>" alt="１F部屋">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/room3.jpg')); ?>" alt="１F部屋">
                         <h3>１F、家賃１ヵ月25,000円 10部屋限定</h3>
                     </div>
                     <div class="flex-item flex-item2">
@@ -174,7 +286,7 @@ get_header(); ?>
                         </ul>
                     </div>
                     <div class="flex-item flex-item3">
-                       <img src="<?php echo esc_url(get_theme_file_uri('images/room4.jpg')); ?>" alt="２F部屋">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/room4.jpg')); ?>" alt="２F部屋">
                         <h3>２F、家賃１ヵ月45,000円 05部屋限定</h3>
                     </div>
                     <div class="flex-item flex-item4">
@@ -191,24 +303,69 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                
+
                 <h2>サービス利用開始までの流れ</h2>
                 
+                <div class="flowchart1">
+                    <div class="box-item box-item1">
+                        <div class="flex-item">
+                            <p>見学</p>
+                        </div>
+                        <div class="flex-item">
+                            <p>窓口に連絡を入れてもらい、<span class="green-line">ご都合の良い日時に見学または、入居相談に来て頂くことが出来ます。</span></p>
+                        </div>
+                    </div>
+                    <div class="box-item box-item2">
+                        <div class="angle"></div>
+                    </div>
+                    <div class="box-item box-item3">
+                        <div class="flex-item">
+                            <p>入居相談</p>
+                        </div>
+                        <div class="flex-item">
+                            <p>入居相談を通して<span class="green-line">入居するための要件や入居後の生活設計を一緒に考えていきます。</span></p>
+                        </div>
+                    </div>
+                    <div class="box-item box-item4">
+                        <div class="angle"></div>
+                    </div>
+                    <div class="box-item box-item5">
+                        <div class="flex-item">
+                            <p>ご利用手続き</p>
+                        </div>
+                        <div class="flex-item">
+                            <p>各市町や、相談支援事業者などと連絡を取り<span class="green-line">受給者証発行の手続きを行います。</span></p>
+                        </div>
+                    </div>
+                    <div class="box-item box-item6">
+                        <div class="angle"></div>
+                    </div>
+                    <div class="box-item box-item7">
+                        <div class="flex-item">
+                            <p>利用開始</p>
+                        </div>
+                        <div class="flex-item">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+<!--
                 <div class="grid-box flowchart1">
                     <div class="box-item grid-center">
                         見学
                     </div>
                     <div class="box-item row-span2">
-                        窓口に連絡を入れてもらい、<span class="green-line">ご都合の良い日時に見学に来て頂くことが出来ます。</span>
+                        窓口に連絡を入れてもらい、<span class="green-line">ご都合の良い日時に見学または、入居相談に来て頂くことが出来ます。</span>
                     </div>
                     <div class="box-item grid-center">
                         <div class="angle"></div>
                     </div>
                     <div class="box-item grid-center">
-                        面談
+                        入居相談
                     </div>
                     <div class="box-item row-span2">
-                        面談を通して<span class="green-line">サービスを受けられるか決定します。</span>
+                        入居相談を通して<span class="green-line">入居するための要件や入居後の生活設計を一緒に考えていきます。</span>
                     </div>
                     <div class="box-item grid-center">
                         <div class="angle"></div>
@@ -217,7 +374,7 @@ get_header(); ?>
                         ご利用手続き
                     </div>
                     <div class="box-item row-span2">
-                        各市町や、事業者などと連絡を取り<span class="green-line">受給者証発行の手続きを行います。</span>
+                        各市町や、相談支援事業者などと連絡を取り<span class="green-line">受給者証発行の手続きを行います。</span>
                     </div>
                     <div class="box-item grid-center">
                         <div class="angle"></div>
@@ -226,22 +383,23 @@ get_header(); ?>
                         利用開始
                     </div>
                 </div>
-                
+-->
 
-                <h2>施設</h2>
+
+                <h2>所在地</h2>
 
                 <ul>
                     <li class="list-item list-item1">
-                        本社/ipppo!　　　　福井県敦賀市公文名54-10-1
+                        本社/ipppo!　　　　　　　福井県敦賀市公文名54-10-1
                     </li>
                     <li class="list-item list-item2">
-                        +ipppo!　　　　　　福井県敦賀市野神2-34-2
+                        +ipppo!　　　　　　　　　福井県敦賀市野神2-34-2
                     </li>
                     <li class="list-item list-item3">
-                        Be ipppo!　　　　　福井県敦賀市野神15-4-13
+                        Be ipppo!　　　　　　　　福井県敦賀市野神15-4-13
                     </li>
                     <li class="list-item list-item4">
-                        LIFE Ipppo!　　　　福井県敦賀市和久野2号東河原17-3
+                        LIFE Ipppo!和久野　　　　福井県敦賀市和久野2号東河原17-3
                     </li>
                 </ul>
 
@@ -259,7 +417,7 @@ get_header(); ?>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.694787329481!2d136.05560401525747!3d35.635250080205005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001facb6eccd6fb%3A0xb400c77583c41e2a!2z44CSOTE0LTAxMjEg56aP5LqV55yM5pWm6LOA5biC6YeO56We77yR77yV4oiS77yU4oiS77yR77yT!5e0!3m2!1sja!2sjp!4v1610424775522!5m2!1sja!2sjp" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                     <div class="flex-item flex-item4">
-                        <h3>LIFE Ipppo!</h3>
+                        <h3>LIFE Ipppo!和久野</h3>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.107495745236!2d136.06029611510985!3d35.625076380207446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001fab1e87425fd%3A0x23b2a51bd662539c!2z44CSOTE0LTAxMjMg56aP5LqV55yM5pWm6LOA5biC5ZKM5LmF6YeO77yS!5e0!3m2!1sja!2sjp!4v1610670983353!5m2!1sja!2sjp" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>

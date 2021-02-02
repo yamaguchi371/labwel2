@@ -763,15 +763,45 @@ h3.description {
 .flowchart1 {
     width: 700px;
     margin-bottom: 5em;
+}
+
+/*
+.flowchart1 {
+    width: 700px;
+    margin-bottom: 5em;
     grid-template-columns: 200px 400px;
     grid-column-gap: 10px;
     grid-auto-rows: 60px;
     grid-row-gap: 10px;
     justify-content: space-between;
 }
+*/
 
 .flowchart1 > .box-item {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     position: relative;
+    margin-bottom: 1.5em;
+}
+
+.flowchart1 > .box-item:nth-child(odd) {
+    border: 3px solid var(--link-color);
+    border-radius: 5px;
+}
+
+.flowchart1 > .box-item > .flex-item {
+    width: 50%;
+}
+
+.flowchart1 > .box-item > .flex-item:nth-of-type(odd) {
+    text-align: center;
+}
+
+.flowchart1 > .box-item > .flex-item > p {
+    margin: 1rem auto;
+    padding: 0 15px;
 }
 
 
@@ -790,13 +820,13 @@ h3.description {
 .life_ipppo_desc {
     justify-content: center;
     align-content: center;
+    align-items: center;
     row-gap: 40px;
 }
 
 .life_ipppo_desc > .flex-item {
     width: 50%;
     min-height: 200px;
-    align-self: center;
 }
 
 .life_ipppo_desc > .flex-item > img {
