@@ -205,6 +205,59 @@ a:focus {
 .wrapper {
 }
 
+.l-wrapper {
+    min-height: 80vh;
+    grid-template-columns: 1fr 866px 1fr;
+}
+
+.main {
+    margin-top: 80px;
+}
+
+.section {
+    
+}
+
+
+.section-title {
+    font-size: 1.56em;
+    font-weight: 600;
+    padding-left: 10px;
+    margin-bottom: 2em;
+    border-left: 10px solid var(--underline-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
+.section h3 {
+    font-size: 1.25em;
+    font-weight: 500;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.section > .flex-box > .flex-item {
+    margin-bottom: 94px;
+}
+
+
+.section > .flex-box > .flex-item:nth-child(odd) {
+    width: 60%;
+}
+
+.section > .flex-box > .flex-item:nth-child(even) {
+    width: 40%;
+}
+
+.section > .flex-box > .flex-item > img {
+    width: 329px;
+    height: 236px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
 .mb40 {
     margin-bottom: 40px;
 }
@@ -221,6 +274,15 @@ a:focus {
 .font-large {
     font-size: 55px;
 }
+
+.ipppo-logo {
+    margin-left: 20px;
+}
+
+.ipppo-logo:first-child {
+    margin-left: 50px;
+}
+
 
 /*-------------------------------------------------------------
 2.header
@@ -406,20 +468,34 @@ a:focus {
 /*-------------------------------------------------------------
 4.front-page
 -------------------------------------------------------------*/
-.l-wrapper {
-    min-height: 80vh;
-    grid-template-columns: 1fr 1000px 1fr;
-}
-
-
-.main {
-    
-}
 
 .f-section {
     margin-top: 80px;
 }
 
+.works {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+.works > .box-item {
+    position: relative;
+}
+
+.works > .box-item > p {
+    display: block;
+    font-size: 20px;
+    width: 110%;
+    text-align: right;
+    padding: 15px 2em 15px 0;
+    background: var(--base-color);
+    position: absolute;
+    bottom: 25px;
+    left: -10px;
+    transform: rotate(-8deg);
+}
 
 /* 事業所紹介セクション */
 
@@ -591,9 +667,6 @@ a > .service-guide {
 /*-------------------------------------------------------------
  6.page 固定ページ
 -------------------------------------------------------------*/
-.content p {
-    word-break: normal;
-}
 
 .article-title {
     font-family: 'Noto Sans JP';
@@ -609,6 +682,7 @@ a > .service-guide {
     padding-bottom: 5px;
 }
 
+/*
 .page > h2 {
     font-size: 1.5em;
     font-weight: 500;
@@ -617,27 +691,25 @@ a > .service-guide {
     text-indent: 10px;
     position: relative;
 }
+*/
 
-.page > h3 {
+.content > h3 {
     margin-bottom: 30px;
     font-size: 1.25em;
-    vertical-align: middle;
-    padding-left: 5px;
-    word-break: keep-all;
-    border-left: 5px solid var(--link-color);
+    font-weight: 600;
 }
 
-.page  ul {
+.content ul {
     margin-top: 20px;
     margin-bottom: 3em;
 }
-.page  ul > li {
+.content ul > li {
     font-size: 18px;
     margin-bottom: 1rem;
     text-indent: 1em;
     position: relative;
 }
-.page  ul > li::before {
+.content ul > li::before {
     display: block;
     content: '';
     width: 10px;
@@ -648,17 +720,17 @@ a > .service-guide {
     top: 40%;
 }
 
-.page > figure {
+.content > figure {
     margin-bottom: 150px;
 }
 
-.page > ul > li a {
+.content > ul > li a {
     color: var(--main-color);
     transition: all 0.3s ease-in;
     position: relative;
 }
 
-.page > ul > li a::after {
+.content > ul > li a::after {
     display: inline-block;
     content: '';
     width: 100%;
@@ -672,11 +744,11 @@ a > .service-guide {
     transform: scale(0, 1);
 }
 
-.page > ul > li a:hover {
+.content > ul > li a:hover {
     color: var(--link-color);
 }
 
-.page > ul > li a:hover::after {
+.content > ul > li a:hover::after {
     transform: scale(1, 1);
     transform-origin: 0%;
 }

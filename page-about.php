@@ -1,5 +1,7 @@
 
-<?php get_header(); ?>
+<?php
+/* 企業情報 */
+get_header(); ?>
         <div class="l-wrapper grid-box"><!-- l-wrapper start -->
         <aside class="sidebar sidebar1"></aside>
         <main class="main"><!-- main start -->
