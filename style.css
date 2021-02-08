@@ -114,7 +114,6 @@ iframe {
 }
 
 .clearfix {
-    display: inline-block;
     clear: both;
 }
 
@@ -222,9 +221,9 @@ a:focus {
 .section-title {
     font-size: 1.56em;
     font-weight: 600;
-    padding-left: 10px;
+    padding-left: 20px;
     margin-bottom: 2em;
-    border-left: 10px solid var(--underline-color);
+    background: linear-gradient(90deg, var(--underline-color) 0% 1%, transparent 1% 100%);
     border-bottom: 1px solid var(--main-color);
 }
 
@@ -782,6 +781,30 @@ h3.description {
 .img__home {
     width: 70%;
 }
+
+/*-----------------
+ 企業情報
+-------------------*/
+.list-left {
+    width: 5em;
+    text-align: justify;
+    margin-right: 1em;
+}
+
+.section-left {
+    width: 70%;
+    float: left;
+}
+
+.section-right {
+    width: 30%;
+    float: left;
+}
+
+.section-right > img {
+    margin-top: 5em;
+}
+
 
 .flowchart1 {
     width: 500px;
