@@ -8,7 +8,87 @@ get_header(); ?>
         <!-- main start -->
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <article <?php body_class(); ?>>
-            <h1 class="article-title"><?php the_title(); ?></h1>
+            <h2 class="section-title"><?php the_title(); ?></h2>
+            <section class="section">
+                <h3 class="mb-2">
+                    就労継続支援A型事業所
+                    <span class="ipppo-logo"><img src="<?php echo esc_url(get_theme_file_uri('images/ipppo.jpg')); ?>" alt="ipppo"></span><span class="ipppo-logo"><img src="<?php echo esc_url(get_theme_file_uri('images/ipppo+.jpg')); ?>" alt="+ipppo"></span>
+                </h3>
+                <p>やりがいの見つかるA型</p>
+                <p>バリエーション豊富なお仕事内容だから<br>自分のやりがいにつながる得意なお仕事が<br>きっと見つかります。</p>
+                <div class="grid-box service__gallery mb-5">
+                    <div class="box-item row-span2">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/service-gallery1.jpg')); ?>" alt="">
+                    </div>
+                    <div class="box-item">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/service-gallery2.jpg')); ?>" alt="">
+                    </div>
+                    <div class="box-item">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/service-gallery3.jpg')); ?>" alt="">
+                    </div>
+                </div>
+                
+                <div class="flex-box service__flow">
+                    <p title="タイトル">サービス利用開始までの流れ</p>
+                </div>
+                <div class="flowchart1">
+                    <div class="box-item box-item1">
+                        <p desc="施設">ハローワーク</p>
+                        <p text>ハローワークで紹介状をもらって、面接の日程を調整してもらいます。</p>
+                        <p text>※面接の前に見学して頂くことも可能です。</p>
+                    </div>
+                    <div class="box-item box-item2">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/arrow.jpg')); ?>" alt="">
+                    </div>
+                    <div class="box-item box-item3">
+                        <p desc="施設">面 接</p>
+                        <p text>面接を行ないます。アセスメントの日程調整も行ないます。<br>持ち物として履歴書、紹介状、医師の診断書が必要となります。</p>
+                    </div>
+                    <div class="box-item box-item4">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/arrow.jpg')); ?>" alt="">
+                    </div>
+                    <div class="box-item box-item5">
+                        <p desc="施設">アセスメント</p>
+                        <p text="">職場を体験して頂きます。<br>なお、この期間は賃金は発生いたしません。</p>
+                    </div>
+                    <div class="box-item box-item6">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/arrow.jpg')); ?>" alt="">
+                    </div>
+                    <div class="box-item box-item7">
+                        <p desc="施設">採用通知</p>
+                    </div>
+                    <div class="box-item box-item8">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/arrow.jpg')); ?>" alt="">
+                    </div>
+                    <div class="box-item box-item9">
+                        <p desc="施設">ご利用手続き</p>
+                        <p text>採用通知が届いた場合、各市町や、相談支援事業所などと連絡を取り、受給者証発行の
+手続きを行ないます。</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section">
+                <h3 class="mb-2">
+                    就労継続支援B型事業所
+                    <span class="ipppo-logo"><img src="<?php echo esc_url(get_theme_file_uri('images/ipppo+.jpg')); ?>" alt="+ipppo"></span>
+                </h3>
+                <p>自分の居場所が見つかるB型</p>
+                <p>みんなと働くのが楽しくなる。<br>そんな働きやすい環境と楽しい<br>人間関係づくりにこだわりました。</p>
+                <div class="grid-box service__gallery mb-5">
+                    <div class="box-item row-span2">
+                        
+                    </div>
+                    <div class="box-item">
+                        
+                    </div>
+                    <div class="box-item">
+                        
+                    </div>
+                </div>
+            </section>
+            
+            
             <div class="content page">
                 <h2 id="typea">就労継続支援A型事業所
                     <span class="ipppo-logo">
