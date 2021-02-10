@@ -25,7 +25,7 @@
                         </span>
                     </h3>
                     <p>自分の居場所が見つかる『B型』<br>みんなとお仕事するのが楽しくなる。<br>そんな働きやすい環境と<br>楽しい人間関係づくりにこだわりました。</p>
-                    <span class="underline"><a href="<?php echo esc_url(home_url('/service#typea')) ?>">詳細</a></span>
+                    <span class="underline"><a href="<?php echo esc_url(home_url('/service#typeb')) ?>">詳細</a></span>
                 </div>
                 <div class="flex-item flex-item4">
                     <img src="<?php echo esc_url(get_theme_file_uri('images/clean3.jpg')); ?>" alt="寺院清掃">
@@ -35,7 +35,7 @@
                         共同生活援助（グループホーム）<br>LIFE Ipppo!和久野
                     </h3>
                     <p>夜間でも支援員が常在しているので<br>安心して入居できます！</p>
-                    <span class="underline"><a href="<?php echo esc_url(home_url('/service#typea')) ?>">詳細</a></span>
+                    <span class="underline"><a href="<?php echo esc_url(home_url('/service#group')) ?>">詳細</a></span>
                 </div>
                 <div class="flex-item flex-item6">
                     <img src="<?php echo esc_url(get_theme_file_uri('images/life_ipppo.jpg')); ?>" alt="ライフいっぽ和久野">
