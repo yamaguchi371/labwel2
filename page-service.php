@@ -54,8 +54,8 @@ get_header(); ?>
                     <div class="box-item box-item6">
                         <img src="<?php echo esc_url(get_theme_file_uri('images/arrow.jpg')); ?>" alt="">
                     </div>
-                    <div class="box-item box-item7">
-                        <p desc="施設">採用通知</p>
+                    <div class="box-item box-item7 nobackground">
+                        <p center>採用通知</p>
                     </div>
                     <div class="box-item box-item8">
                         <img src="<?php echo esc_url(get_theme_file_uri('images/arrow.jpg')); ?>" alt="">
@@ -113,8 +113,8 @@ get_header(); ?>
                     <div class="box-item box-item6">
                         <img src="<?php echo esc_url(get_theme_file_uri('images/arrow.jpg')); ?>" alt="">
                     </div>
-                    <div class="box-item box-item7">
-                        <p desc="施設">利用開始</p>
+                    <div class="box-item box-item7 nobackground">
+                        <p center>利用開始</p>
                     </div>
                 </div>
 
@@ -155,8 +155,8 @@ get_header(); ?>
                     <div class="box-item box-item6">
                         <img src="<?php echo esc_url(get_theme_file_uri('images/arrow.jpg')); ?>" alt="">
                     </div>
-                    <div class="box-item box-item7">
-                        <p desc="施設">利用開始</p>
+                    <div class="box-item box-item7 nobackground">
+                        <p center>利用開始</p>
                     </div>
                 </div>
                 
@@ -164,261 +164,6 @@ get_header(); ?>
 
 
             <div class="content page">
-<!--
-                <h2>就労継続支援A型事業所
-                    <span class="ipppo-logo">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/ipppo.jpg')); ?>" alt="">
-                    </span>
-                    <span class="ipppo-logo">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/ipppo+.jpg')); ?>" alt="">
-                    </span>
-                </h2>
--->
-<!--
-                <p>やりがいの見つかるA型</p>
-                <div class="row mb70">
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/coast2.jpg')); ?>" alt="海岸清掃">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/trash2.jpg')); ?>" alt="戸別収集">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/kelpslice.jpg')); ?>" alt="昆布かき">
-                    </div>
-                </div>
--->
-
-<!--                <h3>サービス利用開始までの流れ</h3>-->
-
-<!--                <div class="flowchart1">-->
-<!--
-                    <div class="box-item box-item1">
-                        <div class="flex-item">
-                            <p>ハローワーク</p>
-                        </div>
-                        <div class="flex-item">
-                            <p>ハローワークで紹介状をもらって、面接の日程を調整してもらいます。<br><span class="green-line">※面接の前に見学して頂くことも可能です。</span></p>
-                        </div>
-                    </div>
-                    <div class="box-item box-item2">
-                        <div class="angle"></div>
-                    </div>
-                    <div class="box-item box-item3">
-                        <div class="flex-item">
-                            <p>面接</p>
-                        </div>
-                        <div class="flex-item">
-                            <p>面接を行います。アセスメントの日程調整も行います。<span class="green-line">持ち物として履歴書、紹介状、医師の診断書が必要となります。</span></p>
-                        </div>
-                    </div>
--->
-<!--
-                    <div class="box-item box-item4">
-                        <div class="angle"></div>
-                    </div>
-                    <div class="box-item box-item5">
-                        <div class="flex-item">
-                            <p>アセスメント</p>
-                        </div>
-                        <div class="flex-item">
-                            <p>職場を体験して頂きます。なお、<span class="green-line">この期間は賃金は発生いたしません。</span></p>
-                        </div>
-                    </div>
-                    <div class="box-item box-item6">
-                        <div class="angle"></div>
-                    </div>
-                    <div class="box-item box-item7">
-                        <div class="flex-item">
-                            <p>採用通知</p>
-                        </div>
-                    </div>
-                    <div class="box-item box-item8">
-                        <div class="angle"></div>
-                    </div>
-                    <div class="box-item box-item9">
-                        <div class="flex-item">
-                            <p>ご利用手続き</p>
-                        </div>
-                        <div class="flex-item">
-                            <p>採用通知が届いた場合、各市町や、相談支援事業者などと連絡を取り、<span class="green-line">受給者証発行の手続きを行います。</span></p>
-                        </div>
-                    </div>
-                    <div class="box-item box-item10">
-                        <div class="angle"></div>
-                    </div>
-                    <div class="box-item box-item11">
-                        <div class="flex-item">
-                            <p>利用開始</p>
-                        </div>
-                    </div>
-                </div>
--->
-
-<!--
-                <h2>就労継続支援B型事業所
-                    <span class="ipppo-logo">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/ipppo+.jpg')); ?>" alt="">
-                    </span>
-                </h2>
--->
-<!--
-                <p>自分の居場所が見つかるB型</p>
-                <div class="row mb70">
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/clean3.jpg')); ?>" alt="寺院清掃">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/clean4.jpg')); ?>" alt="清掃">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/clean5.jpg')); ?>" alt="寺院清掃">
-                    </div>
-                </div>
--->
-<!--                <h3>サービス利用開始までの流れ</h3>-->
-
-<!--
-                <div class="flowchart1">
-                    <div class="box-item box-item1">
-                        <div class="flex-item">
-                            <p>見学</p>
-                        </div>
-                        <div class="flex-item">
-                            <p><span class="green-line">事業所の仕事の内容や雰囲気</span>を知ってもらいます。</p>
-                        </div>
-                    </div>
-                    <div class="box-item box-item2">
-                        <div class="angle"></div>
-                    </div>
-                    <div class="box-item box-item3">
-                        <div class="flex-item">
-                            <p>体験</p>
-                        </div>
-                        <div class="flex-item">
-                            <p>見学をして頂いた後、実際に事業所で体験して頂き<span class="green-line">事業所の雰囲気などを知って利用するかどうかを決め、</span>利用申し込みを行います。</p>
-                        </div>
-                    </div>
-                    <div class="box-item box-item4">
-                        <div class="angle"></div>
-                    </div>
-                    <div class="box-item box-item5">
-                        <div class="flex-item">
-                            <p>ご利用手続き</p>
-                        </div>
-                        <div class="flex-item">
-                            <p>利用しようと決めた場合、各市町や、相談支援事業者などと連絡を取り、<span class="green-line">受給者証発行の手続きを行います。</span></p>
-                        </div>
-                    </div>
-                    <div class="box-item box-item6">
-                        <div class="angle"></div>
-                    </div>
-                    <div class="box-item box-item7">
-                        <div class="flex-item">
-                            <p>利用開始</p>
-                        </div>
-                    </div>
-                </div>
--->
-
-<!--
-                <h2 id="grope">共同生活援助（グループホーム）LIFE Ipppo!和久野</h2>
-
-                <p>夜間でも支援員が常在しているので安心して入居できます！</p>
-                <p class="font-large font-weight-bold text-danger">2021年2月開所しました！<br>入居相談受付中!!</p>
-
-                <img src="<?php echo esc_url(get_theme_file_uri('images/life_ipppo.jpg')); ?>" alt="ライフいっぽ和久野" class="mb70">
--->
-
-<!--
-                <div class="flex-box life_ipppo_desc">
-                    <div class="flex-item flex-item1">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/room3.jpg')); ?>" alt="１F部屋">
-                        <h3>１F、家賃１ヵ月25,000円 10部屋限定</h3>
-                    </div>
-                    <div class="flex-item flex-item2">
-                        <ul>
-                            <li class="list-item list-item1">
-                                完全個室
-                            </li>
-                            <li class="list-item list-item2">
-                                Wi-Fi無料
-                            </li>
-                            <li class="list-item list-item3">
-                                １F個室はiPad設置（TV電話が出来ます）
-                            </li>
-                            <li class="list-item list-item4">
-                                男女別浴室（男性は１F、女性は２F）
-                            </li>
-                            <li class="list-item list-item5">
-                                エレベーター完備
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="flex-item flex-item3">
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/room4.jpg')); ?>" alt="２F部屋">
-                        <h3>２F、家賃１ヵ月45,000円 05部屋限定</h3>
-                    </div>
-                    <div class="flex-item flex-item4">
-                        <h3>有料サービス</h3>
-                        <p>【食事】<br>朝食：320円　昼食：480円　夕食：500円<br>【家具・家電レンタル】※希望者のみ<br>テレビ：1,000円/月　冷蔵庫：1,000円/月<br>洗濯機：1,000円/月　ベッド：3,000円/月<br>※洗濯機は２Fのみ</p>
-                    </div>
-                    <div class="flex-item flex-item5">
-                        <div class="life_ipppo_desc_left">
-                            サービス提供時間<br>
-                            <span class="font33">２４時間<br>３６５日</span>
-                        </div>
-                        <div class="life_ipppo_desc_right">
-                            ・サービス管理責任者　・生活支援員<br>・世話人　・看護職員　・夜間支援員常在<br>・警備セキュリティ（セコム）完備<br>・火災報知器　・スプリンクラー設置
-                        </div>
-                    </div>
-                </div>
--->
-
-<!--                <h2>サービス利用開始までの流れ</h2>-->
-
-<!--
-                <div class="flowchart1">
-                    <div class="box-item box-item1">
-                        <div class="flex-item">
-                            <p>見学</p>
-                        </div>
-                        <div class="flex-item">
-                            <p>窓口に連絡を入れてもらい、<span class="green-line">ご都合の良い日時に見学または、入居相談に来て頂くことが出来ます。</span></p>
-                        </div>
-                    </div>
-                    <div class="box-item box-item2">
-                        <div class="angle"></div>
-                    </div>
-                    <div class="box-item box-item3">
-                        <div class="flex-item">
-                            <p>入居相談</p>
-                        </div>
-                        <div class="flex-item">
-                            <p>入居相談を通して<span class="green-line">入居するための要件や入居後の生活設計を一緒に考えていきます。</span></p>
-                        </div>
-                    </div>
-                    <div class="box-item box-item4">
-                        <div class="angle"></div>
-                    </div>
-                    <div class="box-item box-item5">
-                        <div class="flex-item">
-                            <p>ご利用手続き</p>
-                        </div>
-                        <div class="flex-item">
-                            <p>各市町や、相談支援事業者などと連絡を取り<span class="green-line">受給者証発行の手続きを行います。</span></p>
-                        </div>
-                    </div>
-                    <div class="box-item box-item6">
-                        <div class="angle"></div>
-                    </div>
-                    <div class="box-item box-item7">
-                        <div class="flex-item">
-                            <p>利用開始</p>
-                        </div>
-                    </div>
-                </div>
--->
 
                 <h2>所在地</h2>
 

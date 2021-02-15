@@ -284,6 +284,10 @@ a:focus {
     margin-left: 50px;
 }
 
+.nobackground {
+    background: none !important;
+}
+
 
 /*-------------------------------------------------------------
 2.header
@@ -852,6 +856,13 @@ p[desc="施設"] {
     top: -20px;
     left: -20px;
     transform: rotate(-4deg);
+}
+
+p[center] {
+    color: #d6d6d6;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
 }
 
 .flowchart1 > .box-item:nth-child(even) {
