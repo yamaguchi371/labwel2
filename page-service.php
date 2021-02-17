@@ -94,21 +94,21 @@ get_header(); ?>
                 <div class="flowchart1">
                     <div class="box-item box-item1">
                         <p desc="施設">見 学</p>
-                        <p text>事業所の仕事の内容や雰囲気を知ってもらいます。</p>
+                        <p text>事業所の仕事の内容や雰囲気を見学します。</p>
                     </div>
                     <div class="box-item box-item2">
                         <img src="<?php echo esc_url(get_theme_file_uri('images/arrow.jpg')); ?>" alt="">
                     </div>
                     <div class="box-item box-item3">
                         <p desc="施設">体 験</p>
-                        <p text>見学をして頂いた後、実際に事業所で体験して頂き事業所の雰囲気などを知って利用するかどうかを決め、利用申込みを行ないます</p>
+                        <p text>見学をした後、実際に事業所でお仕事を体験し、利用申込みを行ないます</p>
                     </div>
                     <div class="box-item box-item4">
                         <img src="<?php echo esc_url(get_theme_file_uri('images/arrow.jpg')); ?>" alt="">
                     </div>
                     <div class="box-item box-item5">
                         <p desc="施設">ご利用手続き</p>
-                        <p text>利用しようと決めた場合、各市町や、相談支援事業者などと連絡を取り、受給者証発行の手続きを行ないます。</p>
+                        <p text>各市町や、相談支援事業者などと連絡を取り、受給者証発行の手続きを行ないます。</p>
                     </div>
                     <div class="box-item box-item6">
                         <img src="<?php echo esc_url(get_theme_file_uri('images/arrow.jpg')); ?>" alt="">
@@ -136,7 +136,7 @@ get_header(); ?>
                 <div class="flowchart1">
                     <div class="box-item box-item1">
                         <p desc="施設">見 学</p>
-                        <p text>窓口に連絡を入れてもらい、ご都合の良い日時に見学または、入居相談に来て頂くことが出来ます。</p>
+                        <p text>窓口に連絡を入れてもらい、ご都合の良い日時に見学または、入居相談に来て頂きます。</p>
                     </div>
                     <div class="box-item box-item2">
                         <img src="<?php echo esc_url(get_theme_file_uri('images/arrow.jpg')); ?>" alt="">

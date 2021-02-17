@@ -13,11 +13,11 @@ get_header(); ?>
                    <section class="section mb-5">
                    <p>株式会社LABwelは、お仕事を通して自分の存在価値・やる気・新たな能力の
 発見など、利用者さんの成長に繋がる自立を支援をする会社です。</p>
-                  <section class="section-left">
+                  <section class="section-left mr-3">
                       <ul>
                           <li class="list-item list-item1">
                               <span class="list-left">会社名</span>
-                              <span>株式会社　LABwel　（就労継続支援A型、B型事業所）</span>
+                              <span>株式会社LABwel</span>
                           </li>
                           <li class="list-item list-item2">
                               <span class="list-left">代表者名</span>
@@ -48,14 +48,14 @@ get_header(); ?>
                    </section>
                    <h3 title="タイトル">経営理念</h3>
                    <section class="section mb-5">
-                       <p>お客様の満足に貢献し、障碍者の満足を追求し、地域社会に貢献する</p>
-                       <div class="section-left">
+                       <p>お客様の満足に貢献し、障がい者の満足を追求し、地域社会に貢献する。</p>
+                       <div class="section-left mr-3">
                            <ul>
                                <li class="list-item list-item1">
                                    お客様の満足の追及
                                </li>
                                <li class="list-item list-item2">
-                                   障碍者の満足の追及
+                                   障がい者の満足の追及
                                </li>
                                <li class="list-item list-item3">
                                    地域社会への貢献
@@ -71,7 +71,7 @@ get_header(); ?>
                    <section class="section">
                        <p>平成28年7月　株式会社LABwel</p>
                        <p>同年　事業所　+ipppo　設立</p>
-                       <p>令和元年　事業所　+ipppoにてB型事業所サービススタート</p>
+                       <p>令和元年　事業所　+ipppoにてB型事業開始</p>
                    </section>
                 </div>
             
