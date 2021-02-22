@@ -784,6 +784,112 @@ h3.description {
 /*-----------------
  企業情報
 -------------------*/
+.page-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    margin-bottom: 200px;
+    position: relative;
+}
+
+.page-title > p {
+    color: #d6d6d6;
+    font-size: 7.5vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -5;
+}
+
+.motto {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+h3[title] {
+    font-size: 32px;
+    font-weight: 500;
+    padding-left: 20px;
+    position: relative;
+}
+
+h3[title]::before {
+    display: block;
+    content: '';
+    width: 2px;
+    height: 1em;
+    background: linear-gradient(#000000 0% 40%, #d6d6d6 40% 100%);
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.about-image img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.info-table {
+    width: 100%;
+    margin: 100px 0;
+    border-collapse: collapse;
+    border-top: 2px solid #dfdfdf;
+}
+
+.info-table tr:nth-child(even) {
+    background-color: #f6f6f6;
+}
+
+.info-table tr > td {
+    margin: 0 auto;
+    padding: 11px 20px;
+    border-bottom: 2px solid #dfdfdf;
+}
+
+.info-table dt {
+    width: 20%;
+    border-top: 1px solid #262626;
+}
+
+.company-info {
+    justify-content: space-between;
+    margin: 100px 0;
+    column-gap: 4%;
+    font-size: 16px;
+}
+
+.company-info dl {
+    display: flex;
+    flex-flow: wrap;
+    width: 46%;
+}
+
+.company-info dl dd {
+    width: 30%;
+    padding: 15px 0 15px 10px;
+    border-top: 1px solid #262626;
+    line-height: 2.18;
+    color: #959595;
+    margin-bottom: 0;
+}
+.company-info dl dd:last-of-type {
+    border-bottom: 1px solid #262626;
+}
+.company-info dl dt {
+    width: 70%;
+    padding: 16px 0 15px 15px;
+    line-height: 2.18;
+    border-top: 1px solid #ddd;
+    font-weight: 400;
+}
+
+.company-info dl dt:last-of-type {
+    border-bottom: 1px solid #ddd;
+}
+
 .list-left {
     width: 5em;
     text-align: justify;

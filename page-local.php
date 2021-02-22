@@ -162,7 +162,7 @@ get_header(); ?>
                             <img src="<?php echo esc_url(get_theme_file_uri('images/cook2.jpg')); ?>" alt="">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <img src="<?php echo esc_url(get_theme_file_uri('images/catering2.jpg')); ?>" alt="">
+                            <img src="<?php echo esc_url(get_theme_file_uri('images/cook3.jpg')); ?>" alt="">
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <img src="<?php echo esc_url(get_theme_file_uri('images/catering3.jpg')); ?>" alt="">
